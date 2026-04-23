@@ -147,17 +147,53 @@
 
 #  check if a number is multiple of 7 
 
-num=int(input("Enter a number : "))
+# num=int(input("Enter a number : "))
 
-if num % 7 ==0:
-    print("it is a multiple of 7")
-else:
-    print("not multiple of 7")
+# if num % 7 ==0:
+#     print("it is a multiple of 7")
+# else:
+#     print("not multiple of 7")
+
+# list
+# marks1=43
+# marks2=43
+# marks3=43
+# marks4=43
+# marks5=43
+
+# marks=[43,43,43,43,43]
+# print(marks)
+# print(type(marks))
+# print(marks[0])
+# print(len(marks))
+
+# student=["shivani",98.3,22,"Delhi"]
+# print(student)
+# print(student[3])
+
+# list are mutable in python
+# sublist is a small part of a list
+# LIST SLICING
+# marks=[10,90,70,80]
+# print(marks)
+# print(marks[1:3])
+
+# list methods 
+
+# list = ["a","b","c","d"]
+
+# list.append(4)
+# # print(list.sort())
+# print(list)
+# print(list.sort(reverse=True))
+
+list=[2,1,3,4]
+list.remove(1)
+print(list)
 
 
-
-
-
-
+list=[2,1,3,4]
+list.pop(4)
+print(list)
 
 
