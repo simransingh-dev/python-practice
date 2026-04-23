@@ -187,13 +187,75 @@
 # print(list)
 # print(list.sort(reverse=True))
 
-list=[2,1,3,4]
-list.remove(1)
+# list=[2,1,3,4]
+# list.remove(1)
+# print(list)
+
+# tuples in python - it is a built -in data type that lets us create immutable sequences of values
+
+# we use parenthesis instead of square bracket
+
+# tup=(2,3,4,1)
+# print(tup[0])
+# print(tup[1])
+# print(tup[2])
+# print(type(tup))
+
+# tup=("hello",)
+# print(tup)
+# print(type(tup))
+
+# slicing in tupple works the same way as in strings and lists
+# tup=(1,2,3,4)
+# print(tup[1:3])
+# print(type(tup))
+
+# tuple methods 
+# tup=(1,2,3,4,5)
+# print(tup.index(2))
+# print(tup.count(2))
+
+# ask user for 3 favourite movies and store in a list
+
+# movies=[]
+
+# for i in range(3):
+#     movie=input(f"enter your {i+1} favourite movie:")
+#     movies.append(movie)
+
+# print("your favourite movies are :",movies)
+
+# check if a list is pallindrome
+
+# list=[1,2,3,2,1]
+
+# copy_list=list.copy()
+# copy_list.reverse()
+
+# if list ==copy_list:
+#     print("palliondrome")
+# else:
+#     print("not a pallindrome")
+
+# count
+
+# grades=("c","d","A","B")
+
+# list=list(grades)
+# list.sort()
+# print(list)
+
+# sort from a to d
+grades=("c","A","B","D","c")
+list=list(grades)
+list.sort()
 print(list)
 
 
-list=[2,1,3,4]
-list.pop(4)
-print(list)
+
+
+
+
+
 
 
