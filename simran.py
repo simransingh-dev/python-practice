@@ -326,5 +326,42 @@
 # print(len(unique_subjects))
 
 # store 9 and 9.0 separately
-s={9,9.0,"9"}
-print(s)
+# s={9,9.0,"9"}
+# print(s)
+
+# loops in python
+
+# loops are used to repeat instructions
+
+# there are two types of loops in python
+# while loop and for loop
+
+# for i in range( 1,11):
+#     print(i)
+
+# i=1
+# while i <=10:
+#     print(i)
+#     i+=1
+
+# print i in range(1,21):
+# for i in range(1,21):
+#     if i %2== 0:
+#         print(i)
+
+# print sum of numbers from 1 to n
+
+# n=int(input("Enter a number :"))
+# total=0
+
+# for i in range(1,n+1):
+#     total += i
+
+#     print("sum:",total)
+
+# print multiplication table of a number
+
+n=int(input("Enter a number:"))
+
+for i in range(1,11):
+    print(n, "x" , i , "=" , n* i)
