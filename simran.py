@@ -245,17 +245,48 @@
 # list.sort()
 # print(list)
 
-# sort from a to d
-grades=("c","A","B","D","c")
-list=list(grades)
-list.sort()
-print(list)
+
+# grades=("c","A","B","D","c")
+# list=list(grades)
+# list.sort()
+# print(list)
+
+# dictionary in python
+# dictionaries are used to store data values in key:value pair
+# they are unordered, mutable(changebale) and do not allow duplicate keys
+
+# dict={
+#     "name" : "simran",
+#     "cgpa": 9.9,
+#     "subject":["maths","science","sst"]
+# }
 
 
+# print(dict)
+
+# student={
+#     "name":"Shivani",
+#     "class":"10nth",
+#     "subjects": ["hindi","english","Maths","Hindi"],
+#     "age":15,
+#     "is_adult": False
+# }
+
+# print(student)
 
 
+# null_dict={}
 
+# print(null_dict) we can null dictionary like this too
 
+# NESTED DICTIONARY
+student={
+    "name":"Saanvi",
+    "cities": {
+        "delhi",
+        "mumbai",
+        "patna"
+    }
+}
 
-
-
+print(student)
