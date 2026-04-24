@@ -280,13 +280,51 @@
 # print(null_dict) we can null dictionary like this too
 
 # NESTED DICTIONARY
-student={
-    "name":"Saanvi",
-    "cities": {
-        "delhi",
-        "mumbai",
-        "patna"
-    }
-}
+# student={
+#     "name":"Saanvi",
+#     "cities": {
+#         "delhi",
+#         "mumbai",
+#         "patna"
+#     }
+# }
 
-print(student)
+# print(student)
+# set is a collection of unordered item , each element in the set must be unique and immutable
+
+# collection={1,2,3,4,4}
+
+# print(collection)
+# print(type(collection))
+
+# collection= set()
+# print(type(collection))
+
+# there are different set methods like
+# set.add() - it adds an element
+# set.remove() - it removes an element
+# ṣet.clear() - it empties the set
+# set.pop() - removes random number
+# set.union(set2) - combines both set values and returns new
+# set.intersection(set2) - combines common values and returns new
+
+# collection={"hello","simran"}
+# print(collection.pop())
+
+# store word meaning in a dictionary
+
+# words={
+#     "table" : ["a piece of furniture", "lists of facts and figures"],
+#     "cat": "a small animal"
+# }
+# print(words)
+
+# no of classroom needed
+# subject=["python","Java","c++","Javascript","Java"]
+# unique_subjects= set(subject)
+
+# print(len(unique_subjects))
+
+# store 9 and 9.0 separately
+s={9,9.0,"9"}
+print(s)
