@@ -361,7 +361,31 @@
 
 # print multiplication table of a number
 
-n=int(input("Enter a number:"))
+# n=int(input("Enter a number:"))
 
-for i in range(1,11):
-    print(n, "x" , i , "=" , n* i)
+# for i in range(1,11):
+#     print(n, "x" , i , "=" , n* i)
+
+# i=1
+
+# while i <=10:
+#     print(i)
+#     i+=1
+
+# i=1
+
+# while i <=20:
+#     if i % 20:
+#         if i % 2==0:
+#             print(i)
+#             i +=1
+
+
+# find sum of numbers from 1 to 100
+
+i=1
+
+while i <=20:
+    if i %2==0:
+        print(i)
+        i +=1
