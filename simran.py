@@ -383,9 +383,99 @@
 
 # find sum of numbers from 1 to 100
 
-i=1
+# i=1
 
-while i <=20:
-    if i %2==0:
-        print(i)
-        i +=1
+# while i <=20:
+#     if i %2==0:
+#         print(i)
+#         i +=1
+
+# functions in pythons- block of statements that perform a specific task
+# def func_name(param1,param2..);
+#   some work
+# return value
+
+# func_name(arg1,arg2...) - function call
+
+
+# def calc_sum(a,b):
+#     sum=a+b
+#     print(sum)
+#     return sum
+
+# calc_sum(2,2)
+# calc_sum(2,23)
+# calc_sum(12,12)
+
+# def calc_sum(a,b) : function definaiton
+#     return a+b
+
+# # sum=calc_sum(1,2)  function call
+# print(sum)
+
+# def print_hello():
+#     print("hello")
+
+# print_hello()
+
+# average of 3 numbers
+
+# def calc_average(a,b,c):
+#     sum=a+b+c
+#     avg=sum/3
+#     print(avg)
+#     return avg
+
+# calc_average(1,2,3)
+
+# there are different types of functions in python 
+# 1.built in  2. User-defined function
+
+# print("Simran")
+# print("A Software developer")
+
+
+# length len(), type(), range(), print()   these are all built in function
+
+
+# def calc_prod(a=7,b=8):
+#     print(a*b)
+#     return a*b
+
+# calc_prod()
+
+
+# print length of a list 
+# def print_length(lst):
+#     print("length of list:", len(lst))
+
+# # OUTSIDE the function
+# my_list = [1, 2, 34, 4]
+# print_length(my_list)
+
+# print elements of a list in a single line 
+
+# def print_elements(lst):
+#     for i in lst:
+#         print(i,end="")
+
+# print_elements([1,2,34,4,5])
+
+
+# find factorial of n 
+
+# def factorial(n):
+#     fact=1
+#     for i in range(1, n+1):
+#         fact *=i
+#     print(fact)
+# factorial(5)
+
+# Convert usd to inr
+
+def usd_to_inr(usd):
+    rate=90
+    inr=usd*rate
+    print(inr)
+
+usd_to_inr(5)
