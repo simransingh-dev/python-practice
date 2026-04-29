@@ -473,9 +473,75 @@
 
 # Convert usd to inr
 
-def usd_to_inr(usd):
-    rate=90
-    inr=usd*rate
-    print(inr)
+# def usd_to_inr(usd):
+#     rate=90
+#     inr=usd*rate
+#     print(inr)
 
-usd_to_inr(5)
+# usd_to_inr(5)
+
+# file input and output in python
+
+# all the variables are created in ram but the probem is ram is volatile
+
+# python can be used to perform operations on a file . ( read and write data )
+
+# types of all files
+
+# 1. text files - .txt, .docx, .log etc
+# 2. binary files  - .mp4, .mov, .png, .jpeg
+
+# at the end all of them are stored as 0 and 1 
+
+# OPEN,READ AND CLOSE FILE
+# we have to open a file before reading or writting
+
+
+# oops in python
+# to map with real world secenarios, we started using objects in code .
+# this is called object oriented programming.
+# because of function redundency decrese and reusebility increased 
+# everything around us is an object . firstly we make a class then we create an object .
+
+# CLASS IS A BLUEPRINT FOR CREATING AN OBJECT
+# creating class
+
+# class Student:
+#     name="Simran Singh"
+   
+
+# # creating an object
+
+# s2= Student 
+# print(s2.name)
+
+
+
+# class Car:
+#     color="blue"
+#     brand="mercedes"
+
+# car1=Car()
+# print(car1.color)
+# print(car1.brand)
+
+# CONSTRUCTOR - INIT FUNCTION 
+# all clases have a function called _init_(),
+# which is always executed when the class is being initiated
+# 1. creating class
+
+class Student:
+    def __init__(simran, fullname):
+        simran.name=fullname
+
+# creating object
+
+s1=Student("Saanvi")
+print(s1.name)
+
+s2=Student("simiii")
+print(s2.name)
+# the self parameter is a reference to the current
+# instance of the class, and is used to acess
+# variables that belongs to the class.
+
