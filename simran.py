@@ -595,21 +595,28 @@
 # print("Name :" , p1.name)
 # print("Age :" , p1.age)
 
-
-class Person:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
+# add a method to display details
+# class Person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
         
-    def show_details(self):
-        print(f"my name is {self.name }and i am {self.age} years old")
+#     def show_details(self):
+#         print(f"my name is {self.name }and i am {self.age} years old")
         
-p1=Person("Shivanii",20)
+# p1=Person("Shivanii",20)
 
-p1.show_details()
+# p1.show_details()
 
+class Book :
+    def __init__(self,title,author):
+        self.title=title
+        self.author=author
 
+b1=Book("Python Basics", "Simran")
 
+print("Title:" , b1.title)
+print("Author:" , b1.author)
 
 
 
