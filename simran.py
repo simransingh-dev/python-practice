@@ -530,18 +530,66 @@
 # which is always executed when the class is being initiated
 # 1. creating class
 
-class Student:
-    def __init__(simran, fullname):
-        simran.name=fullname
+# class Student:
+#     def __init__(self, fullname):
+#         self.name=fullname
+       
 
 # creating object
 
-s1=Student("Saanvi")
-print(s1.name)
+# s1=Student("Saanvi")
+# print(s1.name)
 
-s2=Student("simiii")
-print(s2.name)
-# the self parameter is a reference to the current
+# s2=Student("simiii")
+# print(s2.name)
+# The self parameter is a reference to the current
 # instance of the class, and is used to acess
 # variables that belongs to the class.
+
+# all the data that is stored in the class are called attributes.
+
+# class and instance attribute
+# class.attribute
+# object.attribute
+
+# class Car:
+#     def __init__(self, userbrand, usermodel):
+#         self.brand = userbrand
+#         self.model = usermodel
+
+# my_car = Car("Toyota", "Corolla")
+# print(my_car.brand)
+
+class Student:
+    
+      def set_name(self,name):
+          self.name=name
+          
+      def get_name(self):
+          return self.name
+
+Student1 =Student()
+Student1.set_name("Simran")
+print(Student1.name)
+print(Student1.get_name())
+
+Student2 =Student()
+Student2.set_name("Saanvi")
+print(Student2.name)
+print(Student2.get_name())
+
+Student3 =Student()
+Student3.set_name("Shivani")
+print(Student3.name)
+print(Student3.get_name())
+
+
+
+
+
+
+
+
+
+
 
