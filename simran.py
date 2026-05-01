@@ -560,28 +560,53 @@
 # my_car = Car("Toyota", "Corolla")
 # print(my_car.brand)
 
-class Student:
-    
-      def set_name(self,name):
-          self.name=name
+# class Student:
+#       def set_name(self,name):
+#           self.name=name
           
-      def get_name(self):
-          return self.name
+#       def get_name(self):
+#           return self.name
 
-Student1 =Student()
-Student1.set_name("Simran")
-print(Student1.name)
-print(Student1.get_name())
+# Student1 =Student()
+# Student1.set_name("Simran")
+# print(Student1.name)
+# print(Student1.get_name())
 
-Student2 =Student()
-Student2.set_name("Saanvi")
-print(Student2.name)
-print(Student2.get_name())
+# Student2 =Student()
+# Student2.set_name("Saanvi")
+# print(Student2.name)
+# print(Student2.get_name())
 
-Student3 =Student()
-Student3.set_name("Shivani")
-print(Student3.name)
-print(Student3.get_name())
+# Student3 =Student()
+# Student3.set_name("Shivani")
+# print(Student3.name)
+# print(Student3.get_name())
+
+# Create a class person with name,age and print them
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+        
+# p1=Person("Shivanii",20)
+
+
+# print("Name :" , p1.name)
+# print("Age :" , p1.age)
+
+
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def show_details(self):
+        print(f"my name is {self.name }and i am {self.age} years old")
+        
+p1=Person("Shivanii",20)
+
+p1.show_details()
 
 
 
