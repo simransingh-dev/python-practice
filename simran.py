@@ -677,12 +677,26 @@
 
 # Store name and subject
 
+# class Teacher:
+#     def __init__(self,name,subject):
+#         self.name=name
+#         self.subject=subject
+        
+# t1 = Teacher("Simran", "python")
+
+# print(t1.name)
+# print(t1.subject)
+
+
 class Teacher:
     def __init__(self,name,subject):
         self.name=name
         self.subject=subject
         
-t1 = Teacher("Simran", "python")
+    def introduce(self):
+        print(f"My name is {self.name}, I teach {self.subject}")
+        
+t1=Teacher("simran","Javascript.")
+t1.introduce()
 
-print(t1.name)
-print(t1.subject)
+
