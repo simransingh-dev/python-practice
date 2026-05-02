@@ -663,14 +663,26 @@
 # print(m1.ratingclass Movie :
 
 
-class Movie :
-    def __init__(self, name,rating):
-        self.name=name
-        self.rating=rating
+# class Movie :
+#     def __init__(self, name,rating):
+#         self.name=name
+#         self.rating=rating
         
-    def review(self):
-        print(f"{self.name} has rating {self.rating}")
+#     def review(self):
+#         print(f"{self.name} has rating {self.rating}")
         
-m1=Movie("Inception", 9)
-m1.review()
+# m1=Movie("Inception", 9)
+# m1.review()
 
+
+# Store name and subject
+
+class Teacher:
+    def __init__(self,name,subject):
+        self.name=name
+        self.subject=subject
+        
+t1 = Teacher("Simran", "python")
+
+print(t1.name)
+print(t1.subject)
