@@ -619,17 +619,27 @@
 # print("Author:" , b1.author)
 
 
-class Book :
-    def __init__(self,title,author):
-        self.title=title
-        self.author=author
+# class Book :
+#     def __init__(self,title,author):
+#         self.title=title
+#         self.author=author
 
-    def show(self):
-         print(f"{self.title} by {self.author}")
+#     def show(self):
+#          print(f"{self.title} by {self.author}")
          
          
-b1 = Book("Python basics", "Simran")
-b1.show()
+# b1 = Book("Python basics", "Simran")
+# b1.show()
+
+class Laptop:
+    def __init__(self,brand,price):
+        self.brand= brand
+        self.price= price
+        
+l1 = Laptop("HP", 25000)
+
+print(l1.brand)
+print(l1.price)
 
 
 
