@@ -688,15 +688,26 @@
 # print(t1.subject)
 
 
-class Teacher:
-    def __init__(self,name,subject):
-        self.name=name
-        self.subject=subject
+# class Teacher:
+#     def __init__(self,name,subject):
+#         self.name=name
+#         self.subject=subject
         
-    def introduce(self):
-        print(f"My name is {self.name}, I teach {self.subject}")
+#     def introduce(self):
+#         print(f"My name is {self.name}, I teach {self.subject}")
         
-t1=Teacher("simran","Javascript.")
-t1.introduce()
+# t1=Teacher("simran","Javascript.")
+# t1.introduce()
 
 
+class Mobile:
+    def __init__(self , brand,price):
+        self.brand=brand
+        self.price=price
+        
+    def show(self):
+        print(f"{self.brand} costs {self.price}")
+        
+m1=Mobile("Samsung",20000)
+m1.show()
+        
