@@ -700,14 +700,78 @@
 # t1.introduce()
 
 
-class Mobile:
-    def __init__(self , brand,price):
-        self.brand=brand
-        self.price=price
+# class Mobile:
+#     def __init__(self , brand,price):
+#         self.brand=brand
+#         self.price=price
+        
+#     def show(self):
+#         print(f"{self.brand} costs {self.price}")
+        
+# m1=Mobile("Samsung",20000)
+# m1.show()
+        
+        
+# class City:
+#     def __init__(self, name , state):
+#         self.name=name
+#         self.state=state
+        
+#     def show(self) :
+#         print(f"{self.name} is in {self.state}")
+              
+              
+# c1=City("Patna","Bihar")
+# c1.show()
+
+
+
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
         
     def show(self):
-        print(f"{self.brand} costs {self.price}")
+        print(f"{self.name} scored {self.marks}")
         
-m1=Mobile("Samsung",20000)
-m1.show()
+s1=Student("Simran", 79)
+s1.show()
+
+
+class Car:
+    def __init__(self,brand,speed):
+        self.brand = brand
+        self.speed = speed
+    
+    def drive(self):
+        print(f"{self.brand} is running at {self.speed} km/h")
         
+c1=Car("BMW",120)
+c1.drive()
+
+
+# Bank account
+
+class BankAccount:
+    def __init__(self,name,balance):
+        self.name=name
+        self.balance=balance
+    
+    def deposit(self,amount):
+        self.balance += amount
+        print(f"{amount}deposited")
+        
+    def withdraw(self,amount):
+        if amount > self.balance:
+            print("Insufficient Balance")
+        else:
+            self.balance -= amount
+            print(f"{amount}withdrawn")
+            
+    def show_balance(self):
+        print(f"balance:{self.balance}")
+        
+acc=BankAccount("Simran",9700)
+acc.deposit(500)
+acc.withdraw(200)
+acc.show_balance()
