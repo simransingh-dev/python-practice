@@ -608,18 +608,28 @@
 
 # p1.show_details()
 
+# class Book :
+#     def __init__(self,title,author):
+#         self.title=title
+#         self.author=author
+
+# b1=Book("Python Basics", "Simran")
+
+# print("Title:" , b1.title)
+# print("Author:" , b1.author)
+
+
 class Book :
     def __init__(self,title,author):
         self.title=title
         self.author=author
 
-b1=Book("Python Basics", "Simran")
-
-print("Title:" , b1.title)
-print("Author:" , b1.author)
-
-
-
+    def show(self):
+         print(f"{self.title} by {self.author}")
+         
+         
+b1 = Book("Python basics", "Simran")
+b1.show()
 
 
 
