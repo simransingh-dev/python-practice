@@ -631,15 +631,27 @@
 # b1 = Book("Python basics", "Simran")
 # b1.show()
 
+# class Laptop:
+#     def __init__(self,brand,price):
+#         self.brand= brand
+#         self.price= price
+        
+# l1 = Laptop("HP", 25000)
+
+# print(l1.brand)
+# print(l1.price)
+
 class Laptop:
     def __init__(self,brand,price):
         self.brand= brand
         self.price= price
         
-l1 = Laptop("HP", 25000)
-
-print(l1.brand)
-print(l1.price)
+    def details(self):
+        print(f"Laptop :{self.brand} , Price : {self.price}")
+        
+        
+l1=Laptop("HP",25000)
+l1.details()
 
 
 
