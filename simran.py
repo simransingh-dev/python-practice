@@ -641,19 +641,36 @@
 # print(l1.brand)
 # print(l1.price)
 
-class Laptop:
-    def __init__(self,brand,price):
-        self.brand= brand
-        self.price= price
+# class Laptop:
+#     def __init__(self,brand,price):
+#         self.brand= brand
+#         self.price= price
         
-    def details(self):
-        print(f"Laptop :{self.brand} , Price : {self.price}")
+#     def details(self):
+#         print(f"Laptop :{self.brand} , Price : {self.price}")
         
         
-l1=Laptop("HP",25000)
-l1.details()
+# l1=Laptop("HP",25000)
+# l1.details()
+
+# class Movie :
+#     def __init__(self, name,rating):
+#         self.name=name
+#         self.rating=rating
+# m1 = Movie("Inception", 9)
+
+# print(m1.name)
+# print(m1.ratingclass Movie :
 
 
-
-
+class Movie :
+    def __init__(self, name,rating):
+        self.name=name
+        self.rating=rating
+        
+    def review(self):
+        print(f"{self.name} has rating {self.rating}")
+        
+m1=Movie("Inception", 9)
+m1.review()
 
