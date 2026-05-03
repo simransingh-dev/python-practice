@@ -726,52 +726,125 @@
 
 
 
-class Student:
-    def __init__(self,name,marks):
-        self.name=name
-        self.marks=marks
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
         
-    def show(self):
-        print(f"{self.name} scored {self.marks}")
+#     def show(self):
+#         print(f"{self.name} scored {self.marks}")
         
-s1=Student("Simran", 79)
-s1.show()
+# s1=Student("Simran", 79)
+# s1.show()
 
 
-class Car:
-    def __init__(self,brand,speed):
-        self.brand = brand
-        self.speed = speed
+# class Car:
+#     def __init__(self,brand,speed):
+#         self.brand = brand
+#         self.speed = speed
     
-    def drive(self):
-        print(f"{self.brand} is running at {self.speed} km/h")
+#     def drive(self):
+#         print(f"{self.brand} is running at {self.speed} km/h")
         
-c1=Car("BMW",120)
-c1.drive()
+# c1=Car("BMW",120)
+# c1.drive()
 
 
 # Bank account
 
-class BankAccount:
-    def __init__(self,name,balance):
-        self.name=name
-        self.balance=balance
+# class BankAccount:
+#     def __init__(self,name,balance):
+#         self.name=name
+#         self.balance=balance
     
-    def deposit(self,amount):
-        self.balance += amount
-        print(f"{amount}deposited")
+#     def deposit(self,amount):
+#         self.balance += amount
+#         print(f"{amount}deposited")
         
-    def withdraw(self,amount):
-        if amount > self.balance:
-            print("Insufficient Balance")
-        else:
-            self.balance -= amount
-            print(f"{amount}withdrawn")
+#     def withdraw(self,amount):
+#         if amount > self.balance:
+#             print("Insufficient Balance")
+#         else:
+#             self.balance -= amount
+#             print(f"{amount}withdrawn")
             
-    def show_balance(self):
-        print(f"balance:{self.balance}")
+#     def show_balance(self):
+#         print(f"balance:{self.balance}")
         
-acc=BankAccount("Simran",9700)
-acc.deposit(500)
-acc.withdraw(200)
-acc.show_balance()
+# acc=BankAccount("Simran",9700)
+# acc.deposit(500)
+# acc.withdraw(200)
+# acc.show_balance()
+
+# class Mobile:
+#     def __init__(self,brand,price):
+#         self.brand=brand
+#         self.price=price
+        
+#     def discount(self,percent):
+#         self.price-=(self.price* percent /100)
+        
+#     def show(self):
+#         print(f"{self.brand} costs {self.price}")
+        
+# m1 = Mobile("Samasung",33000)
+# m1.discount(10)
+# m1.show()
+
+
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
+
+#     def area(self):
+#         print("Area:", self.length * self.width)
+
+#     def perimeter(self):
+#         print("Perimeter:", 2 * (self.length + self.width))
+
+
+# r1 = Rectangle(10, 5)
+# r1.area()
+# r1.perimeter()
+
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+        
+#     def display(self):
+#         print(f"Name : {self.name} , Marks : {self.marks}")
+        
+# s1=Student("SImran Singh" , 90)
+# s1.display()
+
+# inheritance
+
+# class Animal:
+#     def speak(self):
+#         print("Animal Speaks")
+        
+# class Dog(Animal):
+#     def bark(self):
+#         print("dog barks")
+        
+        
+# d=Dog()
+# d.speak()
+# d.bark()
+    
+    
+    # polymorphism
+    
+    
+class Dog:
+    def sound(self):
+        print("Bark")
+        
+class Cat:
+    def sound(self):
+        print("Meow")
+        
+for animal in [Dog(),Cat()]:
+    animal.sound()
