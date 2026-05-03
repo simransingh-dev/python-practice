@@ -838,13 +838,51 @@
     # polymorphism
     
     
-class Dog:
-    def sound(self):
-        print("Bark")
+# class Dog:
+#     def sound(self):
+#         print("Bark")
         
-class Cat:
-    def sound(self):
-        print("Meow")
+# class Cat:
+#     def sound(self):
+#         print("Meow")
         
-for animal in [Dog(),Cat()]:
-    animal.sound()
+# for animal in [Dog(),Cat()]:
+#     animal.sound()
+    
+    # student grade system 
+    # store syudent name and marks list, method to calculate average and method to display result
+    
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+    
+    def average(self):
+        return sum (self.marks) / len(self.marks)
+    
+    def result(self):
+        avg=self.average()
+        if avg >=40:
+            print("Pass")
+        else:
+            print("Fail")
+            
+            
+s1=Student("Simran",[50,20,80])
+s1.result()
+
+s2=Student("Riya",[20,10,20])
+s2.result()
+
+s2=Student("Shivani",[20,100,20])
+s2.result()
+
+s2=Student("Saanvi",[20,60,20])
+s2.result()
+
+
+s2=Student("Sneha",[10,10,20])
+s2.result()
+
+s2=Student("Priyanka",[80,100,20])
+s2.result()
