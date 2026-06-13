@@ -852,37 +852,134 @@
     # student grade system 
     # store syudent name and marks list, method to calculate average and method to display result
     
-class Student:
-    def __init__(self,name,marks):
-        self.name=name
-        self.marks=marks
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
     
-    def average(self):
-        return sum (self.marks) / len(self.marks)
+#     def average(self):
+#         return sum (self.marks) / len(self.marks)
     
-    def result(self):
-        avg=self.average()
-        if avg >=40:
-            print("Pass")
-        else:
-            print("Fail")
+#     def result(self):
+#         avg=self.average()
+#         if avg >=40:
+#             print("Pass")
+#         else:
+#             print("Fail")
             
             
-s1=Student("Simran",[50,20,80])
-s1.result()
+# s1=Student("Simran",[50,20,80])
+# s1.result()
 
-s2=Student("Riya",[20,10,20])
-s2.result()
+# s2=Student("Riya",[20,10,20])
+# s2.result()
 
-s2=Student("Shivani",[20,100,20])
-s2.result()
+# s2=Student("Shivani",[20,100,20])
+# s2.result()
 
-s2=Student("Saanvi",[20,60,20])
-s2.result()
+# s2=Student("Saanvi",[20,60,20])
+# s2.result()
 
 
-s2=Student("Sneha",[10,10,20])
-s2.result()
+# s2=Student("Sneha",[10,10,20])
+# s2.result()
 
-s2=Student("Priyanka",[80,100,20])
-s2.result()
+# s2=Student("Priyanka",[80,100,20])
+# s2.result()
+
+# variable is a reusable container for a value (strinh, integer,float,boolean)
+# the variable behaves as if it was the value it contains.
+
+# full_name ="Scarlett"
+# age=23
+# gpa=70
+# girl=True
+# print(full_name)
+# print(age)
+# print(gpa)
+# print(girl)
+# if girl:
+#     print("you are student")
+# else:
+#     print("You are not a student")
+
+# friends=3
+# friends +=9
+# print(friends)
+
+# friends =9
+# friends-=1
+# print(friends)
+
+# friends=8
+# friends*=2
+# print(friends)
+
+# friends=7
+# friends%=2
+# print(friends)
+
+# friends=6
+# friends**=9
+# print(friends)
+
+# friends=10
+# remaining_friends = friends %2
+# print(remaining_friends)
+
+# Type Casting
+
+# name="scarlett"
+# age=23
+# gpa=6.0
+# is_student=True
+
+# gpa =int(gpa)
+
+# print(type(name))
+# print(type(age))
+# print(type(gpa))
+# print(type(is_student))
+
+# name=input('Enter your name:')
+# age=input("Enter your age :")
+# print(name)
+
+# if statements
+# age=int(input("Enter your age:"))
+
+# if age >= 18:
+#     print("You are an adult")
+# else :
+#     print("You are a child")
+
+# logical operators
+# or- atleast one condition must be true
+# and - both condition must be true
+# not - inverts the condition (not false, not true)
+
+
+temp=224
+is_raining = False
+
+if temp > 34 or temp < 0 or is_raining:
+    print("The outdoor event is cancelled")
+else:
+    print("The outdoor event is still scheduled")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
