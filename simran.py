@@ -959,13 +959,54 @@
 # not - inverts the condition (not false, not true)
 
 
-temp=224
-is_raining = False
+# temp=224
+# is_raining = False
 
-if temp > 34 or temp < 0 or is_raining:
-    print("The outdoor event is cancelled")
-else:
-    print("The outdoor event is still scheduled")
+# if temp > 34 or temp < 0 or is_raining:
+#     print("The outdoor event is cancelled")
+# else:
+#     print("The outdoor event is still scheduled")
+
+# loops
+# while loop is used to repeat a block od code as long as we receck the codition at the end
+
+# if 1 ==1:
+#  print("I am stuck in a loop!")   
+
+# name=input("ENter your name")
+
+# while name =="":
+#     name=input("Enter your name:")
+    
+# age= int(input("Enter your age"))
+
+# while age <0:
+#     print("Age cannot be less than 0")
+    
+# print(f"Hello {name}")
+
+# for loop is used to iterate over a sequence (sting, list ,tuple,set) rpeat a block of code an exact amount of times
+
+# for i in range(1,1000):
+#     print(i)
+
+# name="Scarlett Johanson"
+
+# for letter in name:
+#     print(letter)
+
+# list[] - mutable and most flexible
+# tuple ()- immutable,faster
+# set {} - mutable (add/remove), unordered,No duplicates,best for membership testing
+
+# fruits=["Apple ","Orange ","Banana " , "Coconut "]
+# print(fruits[2])
+# fruits.append("Mango")
+
+fruits={"apple","Mango","orange"}
+
+fruits.add("litchi")
+
 
 
 
