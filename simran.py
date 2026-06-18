@@ -1003,10 +1003,56 @@
 # print(fruits[2])
 # fruits.append("Mango")
 
-fruits={"apple","Mango","orange"}
+# find the largest number in the list
 
-fruits.add("litchi")
+# numbers=[12,13,16,18,90]
 
+# largest= max(numbers)
+
+# print("Largest number :" , largest)
+
+# check if a number is een or odd
+
+# num = int(input("Enter a number : "))
+
+# if num % 2 ==0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# Reverse a string
+
+# text=input("Enter a string : ")
+
+# reversed_text = text[:: -1]
+
+# print("Reversed String:" , reversed_text)
+
+# calculate factorial of a number
+
+# num= int(input("ENter a number :"))
+
+# factorial = 1
+
+# for i in range(1, num + 1):
+#     factorial *=i
+
+#     print("Factorial :" , factorial)
+
+#  check prime number
+
+num = int(input("ENter a number: "))
+
+if num > 1 :
+    for i in range(2,num):
+        if num %i ==0:
+            print("Not prime")
+            break
+        else:
+            print("Prime")
+    else:
+        print("Not prime")
+    
 
 
 
