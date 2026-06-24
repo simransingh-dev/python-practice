@@ -1041,21 +1041,48 @@
 
 #  check prime number
 
-num = int(input("ENter a number: "))
+# num = int(input("ENter a number: "))
 
-if num > 1 :
-    for i in range(2,num):
-        if num %i ==0:
-            print("Not prime")
-            break
-        else:
-            print("Prime")
-    else:
-        print("Not prime")
+# if num > 1 :
+#     for i in range(2,num):
+#         if num %i ==0:
+#             print("Not prime")
+#             break
+#         else:
+#             print("Prime")
+#     else:
+#         print("Not prime")
     
+# for i in range (1, 11):
+#     print(i)
+    
+# for i in range(10, 0,-1):
+#     print(i)
 
+# num = int(input("Enter a number: "))
 
+# for i in range(1, 11):
+#     print(num, "x" , i, num * i)
 
+# find the sum of numbers from 1 to n
+
+# n=int(input("Enter n :"))
+# total =0
+
+# for i in range(1, n+1):
+#     total += i
+
+# print("Sum =" , total)
+
+# find the factorial of a number
+
+n=int(input("Enter a number: "))
+fact= 1 
+
+for i in range(1,n +1):
+    fact *= i
+
+print("Factorial =" , fact)
 
 
 
