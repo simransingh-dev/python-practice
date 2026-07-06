@@ -1169,15 +1169,62 @@
 
 # check if a student passed
 
-marks = int(input("Enter marks:"))
+# marks = int(input("Enter marks:"))
 
-if marks >=40:
-    print("Pass")
+# if marks >=40:
+#     print("Pass")
+# else:
+#     print("Fail")
+
+# marks= int(input("Enter marks :"))
+
+# if marks >=90:
+#     print("Grade A")
+# elif marks >=75:
+#     print("Grade B")
+# elif marks >=60:
+#     print("Grade C")
+# elif marks >=40:
+#     print("Grade D")
+# else :
+#     print("Fail")
+
+# check if a number is divisible by both 3 and 5
+
+# num=int(input("Enter number:"))
+
+# if num % 3==0 and num %5==0:
+#     print("Divisible by both")
+# else:
+#     print("Not divisible by both")
+
+# find the absolute value
+
+# num = int(input("ENter number :"))
+
+# if num < 0:
+#     print(-num)
+# else:
+#     print(num)
+
+# check if a person is a senior citizen
+
+# age=int(input("Enter age :"))
+
+# if age >=60:
+#     print("Senior citizen")
+# else:
+#     print("Not a senior citizen")
+
+# check password
+
+password=int(input("Enter Password"))
+
+if password =="python1123":
+    print("Access granted")
 else:
-    print("Fail")
-
-
-
+    print("Wrong password")
+    
 
 
 
