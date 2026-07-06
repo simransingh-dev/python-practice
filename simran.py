@@ -1076,16 +1076,56 @@
 
 # find the factorial of a number
 
-n=int(input("Enter a number: "))
-fact= 1 
+# n=int(input("Enter a number: "))
+# fact= 1 
 
-for i in range(1,n +1):
-    fact *= i
+# for i in range(1,n +1):
+#     fact *= i
 
-print("Factorial =" , fact)
+# print("Factorial =" , fact)
 
+# check if a number is positive
 
+# num = int(input("Enter a number :"))
+# if num >0:
+#     print("Positive number")
+    
+    
+# check if a number is positive or negative
 
+# num = int(input("Enter a number :"))
+
+# if num >0:
+#     print("Positive")
+# else:
+#     print("Negative")
+
+# check if a number is even or odd
+
+# num=int(input("ENter a number :"))
+
+# if num %2==0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# find the greatest of 2 number
+# a=int(input("Enter first number:"))
+# b=int(input("Enter second number:"))
+
+# if a > b :
+#     print(a, "is greater")
+# else:
+#     print(b,"is greater")
+
+# check if a person is eligible to vote
+
+age = int(input("Enter your age:"))
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible")
 
 
 
