@@ -1120,14 +1120,61 @@
 
 # check if a person is eligible to vote
 
-age = int(input("Enter your age:"))
+# age = int(input("Enter your age:"))
 
-if age >= 18:
-    print("Eligible to vote")
+# if age >= 18:
+#     print("Eligible to vote")
+# else:
+#     print("Not eligible")
+
+# check if a year is a leap year
+
+# year =int(input("Enter a year :"))
+
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100!= 0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+# check if a character is a vowel
+
+# ch = input("Enter a character :")
+
+# if ch.lower() in "aeiou":
+#     print("Vowel")
+# else:
+#     print("Consonent")
+    
+# find the largest of 3 
+
+# a= int(input())
+# b= int(input())
+# c= int(input())
+
+# if a >=b and a >=c:
+#     print(a, "is largest")
+# elif b>= a and b >=c:
+#     print(b,"is largest")
+# else:
+#     print(c,"is largest")
+
+# check whether the number is divisible by  
+
+# num=int(input("Enter a number:"))
+
+# if num % 5==0:
+#     print("Divisible by 5")
+# else:
+#     print("Not divisible by 5")
+
+# check if a student passed
+
+marks = int(input("Enter marks:"))
+
+if marks >=40:
+    print("Pass")
 else:
-    print("Not eligible")
-
-
+    print("Fail")
 
 
 
