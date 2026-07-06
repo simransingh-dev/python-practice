@@ -1218,16 +1218,67 @@
 
 # check password
 
-password=int(input("Enter Password"))
+# password=int(input("Enter Password"))
 
-if password =="python1123":
-    print("Access granted")
-else:
-    print("Wrong password")
+# if password =="python1123":
+#     print("Access granted")
+# else:
+#     print("Wrong password")
     
+# check whether a number is a multiple of 10
+
+# num=int(input("Enter number:"))
+
+# if num % 10==0:
+#     print("Multiple of 10")
+# else:
+#     print("Wrong password")
+
+# check whether a number is between 1 and 100
+
+# num = int(input("Enter number :"))
+
+# if 1 <=num <=100:
+#     print("Number is between 1 and 100")
+# else:
+#     print("outside the range ")
+
+# find the smallest of 2 number 
+
+# a = int(input())
+# b=  int(input())
+
+# if a < b :
+#     print(a)
+# else:
+#     print(b)
 
 
+# check if a person can get a driving license
 
+# age=int(input("Enter age :"))
+      
+# if age >=18:
+#     print("eligible for driving")
+# else:
+#     print("Not eligible")
 
+# simple calculator using if-elif-else
 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
 
+if op == "+":
+    print("Result =", a + b)
+elif op == "-":
+    print("Result =", a - b)
+elif op == "*":
+    print("Result =", a * b)
+elif op == "/":
+    if b != 0:
+        print("Result =", a / b)
+    else:
+        print("Division by zero is not allowed")
+else:
+    print("Invalid operator")
