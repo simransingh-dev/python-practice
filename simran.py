@@ -1265,20 +1265,91 @@
 
 # simple calculator using if-elif-else
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-op = input("Enter operator (+, -, *, /): ")
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# op = input("Enter operator (+, -, *, /): ")
 
-if op == "+":
-    print("Result =", a + b)
-elif op == "-":
-    print("Result =", a - b)
-elif op == "*":
-    print("Result =", a * b)
-elif op == "/":
-    if b != 0:
-        print("Result =", a / b)
-    else:
-        print("Division by zero is not allowed")
-else:
-    print("Invalid operator")
+# if op == "+":
+#     print("Result =", a + b)
+# elif op == "-":
+#     print("Result =", a - b)
+# elif op == "*":
+#     print("Result =", a * b)
+# elif op == "/":
+#     if b != 0:
+#         print("Result =", a / b)
+#     else:
+#         print("Division by zero is not allowed")
+# else:
+#     print("Invalid operator")
+
+# check if number is positive , negative or zero
+
+# num = int(input("Enter a number :"))
+
+# if num > 0:
+#     print("Positive number")
+# elif num < 0:
+#     print("Negative number")
+# else:
+#     print("Zero")
+
+# check if number is odd or even
+
+# num = int(input("Enter a number :"))
+
+# if num %2 ==0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+# find the largest of 2 numbers
+
+# a=int(input("Enter first number :"))
+# b=int(input("Enter second number"))
+
+# if a > b :
+#     print(a, "is largest")
+# else:
+#     print(b, "is largest")
+
+# find the largest of 2 numbers
+
+# a=int(input("Enter first number :"))
+# b=int(input("Enter second number"))
+
+# if a > b :
+#     print(a,"is largest")
+# else:
+#     print(b,"is largest")
+
+# find largest of three number 
+
+# a=int(input("Enter first number :"))
+# b=int(input("Enter second number"))
+# c=int(input("Enter third number"))
+
+# if a >= b and a >=c:
+#     print(a, "is largest")
+# elif b >= a and b >=c:
+#     print(b,"is largest")
+# else:
+#     print(c, "is largest")
+
+# check voting eligibility
+
+# age=int(input("Enter age :"))
+
+# if age >=18:
+#     print("Eligible to vote")
+# else:
+#     print("not eligible to vote")
+
+# check leap year
+
+year = int(input("Enter a year :"))
+
+if (year % 400 ==0) or (year % 4 ==0 and year % 100!=0) :
+    print("Leap year")
+else :
+    print("Not leap year")
