@@ -1398,9 +1398,58 @@
 
 # check if an item exists
 
-fruits = ["Apple" , "Banana" , "Mango"]
+# fruits = ["Apple" , "Banana" , "Mango"]
 
-if "Banana" in fruits:
-    print("Banana is present")
+# if "Banana" in fruits:
+#     print("Banana is present")
+# else:
+#     print("Banana is not present")
+
+# sort a list
+
+# numbers=[12,103,67,88,90]
+
+# numbers.sort()
+
+# print(numbers)
+
+# reverse a list 
+
+# numbers = [ 1,2 ,4,7,8]
+
+# numbers.reverse()
+# print(numbers)
+
+# find the sum of list elements
+
+# numbers = [1,2,3,6,7,8]
+
+# total =sum(numbers)
+# print("sum =" , total)
+
+# create a tuple
+
+# numbers=(10,20,30,40,50)
+# print(numbers)
+
+# access tuple elements
+
+# colors=("Red" , "Blue" , "Yellow" , "Green")
+
+# print("Second element :" , colors[1])
+# print("Last element :" , colors[-1])
+
+# find the length of tuple
+
+# fruits =("Apple" , "Banana" , "Mango")
+
+# print("Length of tuple :", len(fruits))
+
+# check if an item exists in a tuple
+
+numbers =(10,20,30,40,60)
+
+if 20 in numbers:
+    print("20 is present")
 else:
-    print("Banana is not present")
+    print("20 is not present")
