@@ -1347,9 +1347,60 @@
 
 # check leap year
 
-year = int(input("Enter a year :"))
+# year = int(input("Enter a year :"))
 
-if (year % 400 ==0) or (year % 4 ==0 and year % 100!=0) :
-    print("Leap year")
-else :
-    print("Not leap year")
+# if (year % 400 ==0) or (year % 4 ==0 and year % 100!=0) :
+#     print("Leap year")
+# else :
+#     print("Not leap year")
+
+# create a list of fruit
+# fruits =["Apple" , "Banana" ,"Mango","Orange"]
+
+# print(fruits)
+
+# acess list  elements
+
+# numbers =[10,20,30,40,50]
+
+# print("First element : ",
+# numbers[0])
+
+# print("Last element:")
+# numbers[-1]
+
+# add an element
+
+# colors =["Red" , "Blue" , "Green"]
+
+# colors.append("Yellow")
+# print(colors)
+
+# remove an element
+
+# animals= ["Dog" , "Cat" , "Cow"]
+
+# animals.remove("Cow")
+
+# print(animals)
+
+# update a list element
+
+# cities =["Delhi" , "Mumbai" , "Pune"]
+# cities[2] = "Jaipur"
+# print(cities)
+
+# find the length of a list
+
+# languages = ["python" , "Java" ,"C" , "Javascript"]
+
+# print("Length of list :" , len(languages))
+
+# check if an item exists
+
+fruits = ["Apple" , "Banana" , "Mango"]
+
+if "Banana" in fruits:
+    print("Banana is present")
+else:
+    print("Banana is not present")
