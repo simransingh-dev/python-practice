@@ -1447,9 +1447,88 @@
 
 # check if an item exists in a tuple
 
-numbers =(10,20,30,40,60)
+# numbers =(10,20,30,40,50)
 
-if 20 in numbers:
-    print("20 is present")
-else:
-    print("20 is not present")
+# if 20 in numbers:
+#     print("20 is present")
+# else:
+#     print("20 is not present")
+
+# count an element in a tuple
+
+# numbers = (1,2,3,4,5,1,3,3)
+
+# count = numbers.count(2)
+
+# print("count of 3 =" , count)
+
+# create a dictionary and print all key-value pair
+
+# student= {
+#     "name" : "Simran",
+#     "age"  : 22,
+#     "Course" : "Python"
+# }
+
+# student["city"] ="Delhi"
+# student["age"] =23
+# del student["city"]
+# for key, value in student.items():
+#     print(key, ":" , value)
+
+# print(student["Course"])
+
+# count the frequency of each character
+
+# text ="Banana"
+
+# frequency ={}
+
+# for ch in text :
+#     if ch in frequency:
+#         frequency[ch] += 1
+#     else :
+#         frequency[ch] = 1
+        
+# print(frequency)
+
+# find the highest value
+
+# marks ={
+#     "Math" : 90,
+#     "English" : 85,
+#     "Science" : 95
+# }
+# highest =max(marks.values())
+
+# print(highest)
+
+# merge two dictionaries
+
+# d1= {
+#     "a" : 1,
+#     "b" :2
+# }
+
+# d2 = {
+#     "c": 3,
+#     "d": 4
+# }
+
+# d1.update(d2)
+# print(d1)
+
+# print only keys
+
+student={
+    "name" :"simran",
+    "age" :22,
+    "course":"Python"
+}
+
+for key in student.keys():
+    print(key)
+    
+for value in student.keys():
+    print(value)
+
