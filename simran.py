@@ -1520,15 +1520,47 @@
 
 # print only keys
 
-student={
-    "name" :"simran",
-    "age" :22,
-    "course":"Python"
-}
+# student={
+#     "name" :"simran",
+#     "age" :22,
+#     "course":"Python"
+# }
 
-for key in student.keys():
-    print(key)
+# for key in student.keys():
+#     print(key)
     
-for value in student.keys():
-    print(value)
+# for value in student.keys():
+#     print(value)
 
+# create a set and print it
+
+# numbers = {1,2,3,4,5}
+# print(numbers)
+
+# add an element to the set
+
+# numbers = {1,2,3}
+# numbers.add(4)
+# print(numbers)
+
+# remove an element
+
+# numbers ={1,2,3,4}
+# numbers.remove(2)
+# print(numbers)
+
+# find union of two sets
+
+# set1 ={1,2,3}
+# set2={4,5,6}
+
+# result = set1.union(set2)
+
+# print(result)
+
+# find intersection
+
+set1 = {1,2,3}
+set2 = {2,3,4}
+
+print(set1.intersection(set2))
