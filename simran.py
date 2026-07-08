@@ -1560,7 +1560,44 @@
 
 # find intersection
 
-set1 = {1,2,3}
-set2 = {2,3,4}
+# set1 = {1,2,3}
+# set2 = {2,3,4}
 
-print(set1.intersection(set2))
+# print(set1.intersection(set2))
+
+# find difference 
+# set1 ={1,2,3,4,5}
+# set2={3,4}
+
+# print(set1.difference(set2))
+
+# check if an element exists
+
+# numbers ={10,20,30,40,8}
+
+# if 90 in numbers:
+#     print("Found")
+# else:
+#     print("Not found")
+
+# remove duplicate values
+
+# numbers =[1,2,3,4,6,7,8,7,6,1,2,3]
+
+# unique =set(numbers)
+
+# print(unique)
+
+# find symmetric difference
+
+# set1 ={1,2,3}
+# set2={3,4,5}
+
+# print(set1.symmetric_difference(set2))
+
+# clear all elements from a set
+
+numbers ={1,2,3,4}
+
+numbers.clear()
+print(numbers)
