@@ -1597,7 +1597,47 @@
 
 # clear all elements from a set
 
-numbers ={1,2,3,4}
+# numbers ={1,2,3,4}
 
-numbers.clear()
-print(numbers)
+# numbers.clear()
+
+# print(numbers)
+
+# i=1
+
+# while i <=10:
+#     print(i)
+#     i +=1
+
+# print numbers from 10 to 1
+
+# i = 100
+# while i >= 1:
+#     print(i)
+#     i -=1
+    
+# print even numbers from 1 to 20
+
+# i = 2
+# while i <= 20:
+#     print(i)
+# i +=2
+
+# print odd numbets from 1 to 20
+
+# i = 1
+
+# while i <= 20:
+#     print(i)
+#     i += 2
+
+# print the multplication table of a number
+
+numbers = int(input("ENter number :"))
+i = 1
+
+while i <= 10:
+    result = numbers* i
+
+    print(numbers, "x",i,"=",result)
+    i+=1
