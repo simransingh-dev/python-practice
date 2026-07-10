@@ -1633,11 +1633,63 @@
 
 # print the multplication table of a number
 
-numbers = int(input("ENter number :"))
-i = 1
+# numbers = int(input("ENter number :"))
+# i = 1
 
-while i <= 10:
-    result = numbers* i
+# while i <= 10:
+#     result = numbers* i
 
-    print(numbers, "x",i,"=",result)
-    i+=1
+#     print(numbers, "x",i,"=",result)
+#     i+=1
+
+# def greet(name):
+#     print("Hello" , name)
+# greet("Simran")
+
+# def add_numbers(a,b):
+#     return a+b
+# result=add_numbers(109,20)
+# print("Sum :" , result)
+
+# check whether a number is even or odd
+
+# def check_even_odd(number):
+#     if number %2==0:
+#         print(number,"is even")
+#     else:
+#         print(number,"is odd")
+        
+# check_even_odd(2)
+        
+        
+# find the largest of three numbers
+
+# def find_largest(a,b,c):
+#     if a >=b and a>=c:
+#         return a
+#     elif b >= a and b >=c:
+#         return b
+#     else:
+#         return c
+    
+# largest = find_largest(120,13,14)
+# print("Largest number :" , largest)
+
+# calculate factorial of a number
+
+def factorial(number):
+    result = 1
+    
+    for i in range(1, number + 1):
+        result=result*i
+
+    return result
+
+answer = factorial(5)
+print("Factorial:", answer)
+
+
+
+
+
+
