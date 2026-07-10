@@ -1677,17 +1677,47 @@
 
 # calculate factorial of a number
 
-def factorial(number):
-    result = 1
+# def factorial(number):
+#     result = 1
     
-    for i in range(1, number + 1):
-        result=result*i
+#     for i in range(1, number + 1):
+#         result=result*i
 
-    return result
+#     return result
 
-answer = factorial(5)
-print("Factorial:", answer)
+# answer = factorial(5)
+# print("Factorial:", answer)
 
+# def say_hello():
+#     print("Hello !")
+# say_hello()
+
+# def add(a,b):
+#     result=a+b
+#     print(result)
+# add(2,1)
+
+# print a person name
+
+# def show_name(name):
+#     print("My name is" , name)
+    
+# show_name("sneha")
+
+# find the square of a number
+# def square(number):
+#     result=number*number
+#     print(result)
+# square(55)
+
+# check if a number is positive
+
+def check_positive(number):
+    if number > 0:
+        print('Positive number')
+    else:
+        print('Not a positive number')
+check_positive(20)
 
 
 
