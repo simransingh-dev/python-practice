@@ -1798,28 +1798,47 @@
 # print("total characters:" , len(content))
 # file.close()
 
-file=open("source.txt","w")
-file.write("Hello Python")
-file.close()
+# file=open("source.txt","w")
+# file.write("Hello Python")
+# file.close()
+
+# file=open("source.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+# file=open("source.txt","a")
+# file.write("\nI am learning Python")
+# file.close()
+
+# file=open("source.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+# file=open("source.txt","r")
+# line=file.readline()
+# print(line)
+# file.close()
+
 
 file=open("source.txt","r")
 content=file.read()
-print(content)
+print("Total characters:")
+len(content)
 file.close()
 
-file=open("source.txt","a")
-file.write("\nI am learning Python")
-file.close()
+source=open("source.txt" , "r")
+destination = open("destination.txt","w")
 
-file=open("source.txt","r")
-content=file.read()
-print(content)
-file.close()
+content=source.read()
+destination.write(content)
 
-file=open("source.txt","r")
-line=file.readline()
-print(line)
-file.close()
+source.close()
+destination.close()
+
+print("file copied successfully !")
+
 
 
 
