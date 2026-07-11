@@ -1855,6 +1855,18 @@ content=file.read()
 print(content.lower())
 file.close()
 
+file=open("student.txt","r")
+
+for line in file:
+    print(line.strip())
+    
+file.close()
+
+file=open("student.txt","a")
+file.write("\nCity: Delhi")
+file.close()
+print("New city added successfully")
+
 
 
 

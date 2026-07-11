@@ -3,3 +3,4 @@ Course : Data Science
 Topic : Deep Learning
 
 Status : Learning Python 
+City: Delhi
