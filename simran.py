@@ -1780,22 +1780,45 @@
     
 # file.close()
 
-source=open("source.txt", "r")
-destination=open("destination.txt","w")
+# source=open("source.txt", "r")
+# destination=open("destination.txt","w")
 
-content=source.read()
-destination.write(content)
+# content=source.read()
+# destination.write(content)
 
-source.close()
-destination.close()
+# source.close()
+# destination.close()
 
-print("File copied successfully !")
+# print("File copied successfully !")
 
-file=open("source.txt" ,"r")
+# file=open("source.txt" ,"r")
 
+# content=file.read()
+
+# print("total characters:" , len(content))
+# file.close()
+
+file=open("source.txt","w")
+file.write("Hello Python")
+file.close()
+
+file=open("source.txt","r")
 content=file.read()
+print(content)
+file.close()
 
-print("total characters:" , len(content))
+file=open("source.txt","a")
+file.write("\nI am learning Python")
+file.close()
+
+file=open("source.txt","r")
+content=file.read()
+print(content)
+file.close()
+
+file=open("source.txt","r")
+line=file.readline()
+print(line)
 file.close()
 
 
