@@ -1712,12 +1712,54 @@
 
 # check if a number is positive
 
-def check_positive(number):
-    if number > 0:
-        print('Positive number')
-    else:
-        print('Not a positive number')
-check_positive(20)
+# def check_positive(number):
+#     if number > 0:
+#         print('Positive number')
+#     else:
+#         print('Not a positive number')
+# check_positive(20)
+
+
+file= open("student.txt" ,"w")
+
+file.write("Name : Simran\n")
+file.write("Course : Data Science\n")
+file.write("Topic : Deep Learning\n")
+
+file.close()
+
+print("Data written successfully !")
+
+file=open("student.txt", "r")
+
+content=file.read()
+print(content)
+
+file.close()
+
+
+file=open("student.txt", "a")
+file.write("\nStatus : Learning Python ")
+
+file.close()
+
+print("Data added successfully")
+
+file=open("student.txt" , "r")
+
+for line in file:
+    print(line.strip())
+file.close()
+
+# count the numbers of lines in a file
+
+file=open("student.txt" , "r")
+
+lines=file.readlines()
+
+print("Total lines:" , len(lines))
+file.close()
+
 
 
 
