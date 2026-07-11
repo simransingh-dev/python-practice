@@ -1720,44 +1720,82 @@
 # check_positive(20)
 
 
-file= open("student.txt" ,"w")
+# file= open("student.txt" ,"w")
 
-file.write("Name : Simran\n")
-file.write("Course : Data Science\n")
-file.write("Topic : Deep Learning\n")
+# file.write("Name : Simran\n")
+# file.write("Course : Data Science\n")
+# file.write("Topic : Deep Learning\n")
 
-file.close()
+# file.close()
 
-print("Data written successfully !")
+# print("Data written successfully !")
 
-file=open("student.txt", "r")
+# file=open("student.txt", "r")
 
-content=file.read()
-print(content)
+# content=file.read()
+# print(content)
 
-file.close()
+# file.close()
 
 
-file=open("student.txt", "a")
-file.write("\nStatus : Learning Python ")
+# file=open("student.txt", "a")
+# file.write("\nStatus : Learning Python ")
 
-file.close()
+# file.close()
 
-print("Data added successfully")
+# print("Data added successfully")
 
-file=open("student.txt" , "r")
+# file=open("student.txt" , "r")
 
-for line in file:
-    print(line.strip())
-file.close()
+# for line in file:
+#     print(line.strip())
+# file.close()
 
 # count the numbers of lines in a file
 
-file=open("student.txt" , "r")
+# file=open("student.txt" , "r")
 
-lines=file.readlines()
+# lines=file.readlines()
 
-print("Total lines:" , len(lines))
+# print("Total lines:" , len(lines))
+# file.close()
+
+# file =open("student.txt","r")
+
+# content =file.read()
+# words=content.split()
+
+# print("Total words:" , len(words))
+# file.close()
+
+# file =open("student.txt","r")
+
+# content=file.read()
+# word=input("Enter a word to search: ")
+
+# if word.lower() in content.lower():
+#     print("Word found")
+# else:
+#     print("Word not found")
+    
+# file.close()
+
+source=open("source.txt", "r")
+destination=open("destination.txt","w")
+
+content=source.read()
+destination.write(content)
+
+source.close()
+destination.close()
+
+print("File copied successfully !")
+
+file=open("source.txt" ,"r")
+
+content=file.read()
+
+print("total characters:" , len(content))
 file.close()
 
 
