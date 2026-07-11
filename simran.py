@@ -1822,22 +1822,48 @@
 # file.close()
 
 
-file=open("source.txt","r")
+# file=open("source.txt","r")
+# content=file.read()
+# print("Total characters:")
+# len(content)
+# file.close()
+
+# source=open("source.txt" , "r")
+# destination = open("destination.txt","w")
+
+# content=source.read()
+# destination.write(content)
+
+# source.close()
+# destination.close()
+
+# print("file copied successfully !")
+
+file=open("destination.txt","r")
 content=file.read()
-print("Total characters:")
-len(content)
+print(content)
 file.close()
 
-source=open("source.txt" , "r")
-destination = open("destination.txt","w")
+file=open("student.txt","r")
 
-content=source.read()
-destination.write(content)
+lines=file.readline()
+print("Total lines : ",len(lines))
+file.close()
 
-source.close()
-destination.close()
+file=open("source.txt","r")
+content=file.read()
+print(content.lower())
+file.close()
 
-print("file copied successfully !")
+
+
+
+
+
+
+
+
+
 
 
 
