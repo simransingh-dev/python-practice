@@ -1839,36 +1839,74 @@
 
 # print("file copied successfully !")
 
-file=open("destination.txt","r")
-content=file.read()
-print(content)
-file.close()
+# file=open("destination.txt","r")
+# content=file.read()
+# print(content)
+# file.close()
 
-file=open("student.txt","r")
+# file=open("student.txt","r")
 
-lines=file.readline()
-print("Total lines : ",len(lines))
-file.close()
+# lines=file.readline()
+# print("Total lines : ",len(lines))
+# file.close()
 
-file=open("source.txt","r")
-content=file.read()
-print(content.lower())
-file.close()
+# file=open("source.txt","r")
+# content=file.read()
+# print(content.lower())
+# file.close()
 
-file=open("student.txt","r")
+# file=open("student.txt","r")
 
-for line in file:
-    print(line.strip())
+# for line in file:
+#     print(line.strip())
     
-file.close()
+# file.close()
 
-file=open("student.txt","a")
-file.write("\nCity: Delhi")
-file.close()
-print("New city added successfully")
+# file=open("student.txt","a")
+# file.write("\nCity: Delhi")
+# file.close()
+# print("New city added successfully")
+# create a class named student
+
+class Student:
+    pass
+s1=Student()
+
+print(s1)
+
+# create a class student with a name
+class Student:
+    name="Simran"
+s1=Student()
+print(s1.name)
+
+class Student:
+    name="Simran"
+    age=20
+s1=Student()
+print(s1.name)
+print(s1.age)
+
+class Greeting:
+    def say_hello(self):
+        print("Hello")
+g1=Greeting()
+g1.say_hello()
+
+# create a dog class
+
+class Dog:
+    def bark(self):
+        print("Dog is barking")
+d1=Dog()
+d1.bark()
+    
+    
+    
 
 
 
+ 
 
 
 
