@@ -1962,68 +1962,94 @@
 # c = Car()
 # c.start()
 
-from abc import ABC
-class Animal(ABC):
-    pass
+# from abc import ABC
+# class Animal(ABC):
+#     pass
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Animal(ABC):
+# class Animal(ABC):
 
-    @abstractmethod
-    def sound(self):
-        pass
+#     @abstractmethod
+#     def sound(self):
+#         pass
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Animal(ABC):
+# class Animal(ABC):
 
-    @abstractmethod
-    def sound(self):
-        pass
+#     @abstractmethod
+#     def sound(self):
+#         pass
 
-class Dog(Animal):
+# class Dog(Animal):
 
-    def sound(self):
-        print("Bark")
+#     def sound(self):
+#         print("Bark")
 
-d = Dog()
-d.sound()
+# d = Dog()
+# d.sound()
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Vehicle(ABC):
+# class Vehicle(ABC):
 
-    @abstractmethod
-    def start(self):
-        pass
+#     @abstractmethod
+#     def start(self):
+#         pass
     
     
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Vehicle(ABC):
+# class Vehicle(ABC):
 
-    @abstractmethod
-    def start(self):
-        pass
+#     @abstractmethod
+#     def start(self):
+#         pass
 
-class Car(Vehicle):
+# class Car(Vehicle):
 
-    def start(self):
-        print("Car started")
+#     def start(self):
+#         print("Car started")
 
-c = Car()
-c.start()
+# c = Car()
+# c.start()
 
+# for i in range(1,6):
+#     print(i)
+    
+# for i in range(1,11):
+#     print(i)
 
+# for i in range(4):
+#     print("Hello !")
+    
+# for i in range(2,11,2):
+#     print(i)
 
+# for i in range(1,10,2):
+#     print(i)
 
+# for i in range(5,0,-1):
+#     print(i)
 
+# for i in "Python":
+#     print(i)
 
+# i=1
 
+# while i <=5:
+#     print(i)
+#     i+=1
 
+# i=1
 
+# while i <=3:
+#     print("Python")
+#     i+=1
 
+for i in range(1,11):
+    print(2*i)
 
  
 
