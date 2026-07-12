@@ -2048,17 +2048,31 @@
 #     print("Python")
 #     i+=1
 
-for i in range(1,11):
-    print(2*i)
+# for i in range(1,11):
+#     print(2*i)
 
+# for i in range(10,16):
+#     print(i)
  
+# for i in range(40):
+#     print("Welcome back")
 
+# for i in range(10,0,-1):
+#     print(i)
 
+# for i in range(5,26,5):
+#     print(i)
 
+# fruits=["Apple","Mango","Straberry"]
 
+# for fruit in fruits:
+#     print(fruit)
 
+# for i in range(7):
+#     print("Simran")
 
-
+for i in range(6,11):
+    print(6*i)
 
 
 
