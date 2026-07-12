@@ -2071,12 +2071,39 @@
 # for i in range(7):
 #     print("Simran")
 
-for i in range(6,11):
-    print(6*i)
+# for i in range(6,11):
+#     print(6*i)
 
 
+# for i in range(20,26):
+#     print(i)
 
+# for i in range(5):
+#     print("Good morning")
 
+# for i in range(3,16,3):
+#     print(i)
 
+# i = 5
 
+# while i <=10:
+#     print(i)
+#     i+=1
 
+# name = "Shivani"
+# for i in name:
+#     print(i)
+
+# for i in range(1,6):
+#     print(i*i*i)
+
+# for i in range(1,16,2):
+#     print(i)
+
+# colors=["Red","Green","blue"]
+
+# for i in colors:
+#     print(i)
+
+for i in range(1,11):
+    print(10*i)
