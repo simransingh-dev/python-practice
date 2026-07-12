@@ -1868,39 +1868,76 @@
 # print("New city added successfully")
 # create a class named student
 
-class Student:
-    pass
-s1=Student()
+# class Student:
+#     pass
+# s1=Student()
 
-print(s1)
+# print(s1)
 
-# create a class student with a name
-class Student:
-    name="Simran"
-s1=Student()
-print(s1.name)
+# # create a class student with a name
+# class Student:
+#     name="Simran"
+# s1=Student()
+# print(s1.name)
 
-class Student:
-    name="Simran"
-    age=20
-s1=Student()
-print(s1.name)
-print(s1.age)
+# class Student:
+#     name="Simran"
+#     age=20
+# s1=Student()
+# print(s1.name)
+# print(s1.age)
 
-class Greeting:
-    def say_hello(self):
-        print("Hello")
-g1=Greeting()
-g1.say_hello()
+# class Greeting:
+#     def say_hello(self):
+#         print("Hello")
+# g1=Greeting()
+# g1.say_hello()
 
 # create a dog class
 
-class Dog:
-    def bark(self):
-        print("Dog is barking")
-d1=Dog()
-d1.bark()
+# class Dog:
+#     def bark(self):
+#         print("Dog is barking")
+# d1=Dog()
+# d1.bark()
     
+# .create a class with a method to add two numbers
+# class Calculator:
+#     def add(self):
+#         a=5
+#         b=10
+#         print(a+b)
+# c1=Calculator()
+# c1.add()
+
+# create a constructor
+
+# class Person:
+#     def __init__(self,name):
+#         self.name=name
+# p1=Person("Simran")
+# print(p1.name)
+
+# print student details
+
+# class Student:
+#     def __init__(self,name,course):
+#         self.name=name
+#         self.course=course
+
+# s1=Student("Simran","Python")
+
+# print(s1.name)
+# print(s1.course)
+
+# create a car class
+class Car:
+    def run(self):
+        print("Car is running")
+        
+c1=Car()
+c1.run()
+
     
     
 
