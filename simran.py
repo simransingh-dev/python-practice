@@ -1931,16 +1931,36 @@
 # print(s1.course)
 
 # create a car class
-class Car:
-    def run(self):
-        print("Car is running")
+# class Car:
+#     def run(self):
+#         print("Car is running")
         
-c1=Car()
-c1.run()
+# c1=Car()
+# c1.run()
 
+    # make an abstract class
     
-    
+# from abc import ABC
 
+# class Animal(ABC):
+#     pass
+
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start(self):
+        pass
+
+class Car(Vehicle):
+
+    def start(self):
+        print("Car started")
+
+c = Car()
+c.start()
 
 
  
