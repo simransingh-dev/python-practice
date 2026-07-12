@@ -1946,6 +1946,59 @@
 #     pass
 
 
+# from abc import ABC, abstractmethod
+
+# class Vehicle(ABC):
+
+#     @abstractmethod
+#     def start(self):
+#         pass
+
+# class Car(Vehicle):
+
+#     def start(self):
+#         print("Car started")
+
+# c = Car()
+# c.start()
+
+from abc import ABC
+class Animal(ABC):
+    pass
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+
+    def sound(self):
+        print("Bark")
+
+d = Dog()
+d.sound()
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start(self):
+        pass
+    
+    
 from abc import ABC, abstractmethod
 
 class Vehicle(ABC):
@@ -1961,6 +2014,15 @@ class Car(Vehicle):
 
 c = Car()
 c.start()
+
+
+
+
+
+
+
+
+
 
 
  
