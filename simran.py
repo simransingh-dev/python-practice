@@ -2105,5 +2105,22 @@
 # for i in colors:
 #     print(i)
 
-for i in range(1,11):
-    print(10*i)
+# for i in range(1,11):
+#     print(10*i)
+
+# for i in range(1,11):
+#     print(i)
+
+# for i in range(10,0,-1):
+#     print(i)
+
+# for i in range(1,21):
+#     if i %2==0:
+#         print(i)
+
+# for i in range(1,21):
+#     if i %4==0:
+#         print(i)
+
+for i in range(1,100):
+    print(5,"x",i,"=",5*i)
