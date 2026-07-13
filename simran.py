@@ -2140,11 +2140,23 @@
 #     print(number,"x",i,"=",number *i)
 
 # .count vowels in a string
-text=input("ENter a string :")
-count = 0
+# text=input("ENter a string :")
+# count = 0
 
-for character in text:
-    if character.lower()in "aeiou":
-        count = count +1
+# for character in text:
+#     if character.lower()in "aeiou":
+#         count = count +1
         
-print("Number of vowels:" ,count)
+# print("Number of vowels:" ,count)
+
+# text="Python"
+# for character in text:
+#     print(character)
+
+number = int(input("Enter a number :"))
+factorial=1
+
+for i in range(1,number +1):
+    factorial=factorial*i
+
+print("Factorial =",factorial)
