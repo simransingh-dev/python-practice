@@ -2122,5 +2122,29 @@
 #     if i %4==0:
 #         print(i)
 
-for i in range(1,100):
-    print(5,"x",i,"=",5*i)
+# for i in range(1,100):
+#     print(5,"x",i,"=",5*i)
+
+# calculate the sum of numbers from 1 to 10
+
+# total=0
+
+# for i in range(1,11):
+#     total =total +i
+    
+# print("Sum =", total)
+
+# number=int(input("ENter a number :"))
+
+# for i in range(1,11):
+#     print(number,"x",i,"=",number *i)
+
+# .count vowels in a string
+text=input("ENter a string :")
+count = 0
+
+for character in text:
+    if character.lower()in "aeiou":
+        count = count +1
+        
+print("Number of vowels:" ,count)
