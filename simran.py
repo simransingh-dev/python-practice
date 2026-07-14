@@ -1341,8 +1341,53 @@
 
 # check if number is negative or odd
 
-num=12
-if num <0 and num % 2!=0:
-    print("negative and odd")
+# num=12
+# if num <0 and num % 2!=0:
+#     print("negative and odd")
+# else:
+#     print("condition not satisified")
+
+# check whether a letter is lowercase
+
+# char="A"
+
+# if char.isupper():
+#     print("Uppercase")
+# else:
+#     print("not uppercase")
+
+# check whether a letter is lowercase
+
+# char="a"
+
+# if char.islower():
+#     print("Lowercase")
+# else:
+#     print("Not lowercase")
+
+# check whether the string is empty
+
+# text=""
+# if text =="":
+#     print("String is empty")
+# else:
+#     print("String is not empty")
+
+# check whether the list is empty
+
+# number=[]
+
+# if len(number)==0:
+#     print('list is empty')
+# else:
+#     print("List is not empty")
+
+# check whether a number exists in a list
+
+numbers=[10,20,30,40,50]
+num=20
+
+if num in numbers:
+    print("Number found")
 else:
-    print("condition not satisified")
+    print("not found")
