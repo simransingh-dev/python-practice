@@ -999,1164 +999,259 @@
 # tuple ()- immutable,faster
 # set {} - mutable (add/remove), unordered,No duplicates,best for membership testing
 
-# fruits=["Apple ","Orange ","Banana " , "Coconut "]
-# print(fruits[2])
-# fruits.append("Mango")
+# num = 10
 
-# find the largest number in the list
-
-# numbers=[12,13,16,18,90]
-
-# largest= max(numbers)
-
-# print("Largest number :" , largest)
-
-# check if a number is een or odd
-
-# num = int(input("Enter a number : "))
-
-# if num % 2 ==0:
-#     print("Even")
-# else:
-#     print("Odd")
-
-# Reverse a string
-
-# text=input("Enter a string : ")
-
-# reversed_text = text[:: -1]
-
-# print("Reversed String:" , reversed_text)
-
-# calculate factorial of a number
-
-# num= int(input("ENter a number :"))
-
-# factorial = 1
-
-# for i in range(1, num + 1):
-#     factorial *=i
-
-#     print("Factorial :" , factorial)
-
-#  check prime number
-
-# num = int(input("ENter a number: "))
-
-# if num > 1 :
-#     for i in range(2,num):
-#         if num %i ==0:
-#             print("Not prime")
-#             break
-#         else:
-#             print("Prime")
-#     else:
-#         print("Not prime")
-    
-# for i in range (1, 11):
-#     print(i)
-    
-# for i in range(10, 0,-1):
-#     print(i)
-
-# num = int(input("Enter a number: "))
-
-# for i in range(1, 11):
-#     print(num, "x" , i, num * i)
-
-# find the sum of numbers from 1 to n
-
-# n=int(input("Enter n :"))
-# total =0
-
-# for i in range(1, n+1):
-#     total += i
-
-# print("Sum =" , total)
-
-# find the factorial of a number
-
-# n=int(input("Enter a number: "))
-# fact= 1 
-
-# for i in range(1,n +1):
-#     fact *= i
-
-# print("Factorial =" , fact)
-
-# check if a number is positive
-
-# num = int(input("Enter a number :"))
 # if num >0:
 #     print("Positive number")
-    
-    
-# check if a number is positive or negative
+ 
+# num=-5
+# if num>0:
+#      print("Negative number")
 
-# num = int(input("Enter a number :"))
+# check if a number is zero
 
-# if num >0:
-#     print("Positive")
-# else:
-#     print("Negative")
+# num = 0
+# if num ==0:
+#     print("The number is zero")
 
-# check if a number is even or odd
+# check if a number is even
+# num=8
+# if num%2==0:
+#     print("Even number")
 
-# num=int(input("ENter a number :"))
+# num=7
+# if num%2==0:
+#     print("Odd number")
 
-# if num %2==0:
-#     print("Even")
-# else:
-#     print("Odd")
+# age=20
 
-# find the greatest of 2 number
-# a=int(input("Enter first number:"))
-# b=int(input("Enter second number:"))
-
-# if a > b :
-#     print(a, "is greater")
-# else:
-#     print(b,"is greater")
-
-# check if a person is eligible to vote
-
-# age = int(input("Enter your age:"))
-
-# if age >= 18:
+# if age>=18:
 #     print("Eligible to vote")
 # else:
-#     print("Not eligible")
+#     print("Not eligible to vote")
 
-# check if a year is a leap year
+# age=22
 
-# year =int(input("Enter a year :"))
-
-# if (year % 400 == 0) or (year % 4 == 0 and year % 100!= 0):
-#     print("Leap year")
+# if age >=18:
+#     print("Adult")
 # else:
-#     print("Not a leap year")
+#     print("Minor")
 
-# check if a character is a vowel
+# check whether 2 numbers are equal
 
-# ch = input("Enter a character :")
+# a=10
+# b=100
 
-# if ch.lower() in "aeiou":
-#     print("Vowel")
+# if a == b :
+#     print("Both numbers are equal")
 # else:
-#     print("Consonent")
-    
-# find the largest of 3 
+#     print("Numbers are not equal")
 
-# a= int(input())
-# b= int(input())
-# c= int(input())
+# a=20
+# b=15
 
-# if a >=b and a >=c:
-#     print(a, "is largest")
-# elif b>= a and b >=c:
-#     print(b,"is largest")
+# if a > b:
+#     print("a is grater")
 # else:
-#     print(c,"is largest")
+#     print("b is greater")
 
-# check whether the number is divisible by  
+# a=5
+# b=9
 
-# num=int(input("Enter a number:"))
+# if a < b:
+#     print("A is smaller")
+# else:
+#     print("B is smaller")
+
+# check if a number is greater than 100
+
+# num = 150
+
+# if num>100:
+#     print("Greater than 100")
+# else:
+#     print("Not greater than 100")
+
+# num=25
 
 # if num % 5==0:
-#     print("Divisible by 5")
+#     print("divisible by 5")
 # else:
 #     print("Not divisible by 5")
 
-# check if a student passed
+# num=60
 
-# marks = int(input("Enter marks:"))
+# if num%10==0:
+#     print("Divisible by 10")
+# else:
+#     print("Not divisible by 10")
 
-# if marks >=40:
+# num=15
+
+# if num %3==0 and num%5==0:
+#     print("divisible by both")
+# else:
+#     print(" not divisible by both")
+
+# num = 9
+
+# if num%2==0 or num%3==0:
+#     print("divisible by 2 or 3")
+# else:
+#     print(" not divisible by both")
+
+# check whether the character is a vowel
+
+# char = "a"
+
+# if char in "aeiouAEIOU":
+#     print("Vowel")
+# else:
+#     print("Not vowel")
+
+# char ="b"
+
+# if char not in "aeiouAEIOU":
+#     print("Consonent")
+# else:
+#     print("Vowel")
+
+# check whether a password is correct
+
+# password="Python123"
+
+# if password =="Python123":
+#     print("Correct Password")
+# else:
+#     print("Incorrect password")
+
+# check whether a username is correct
+
+# username="Simran"
+
+# if username=="Simran":
+#     print("Valid username")
+# else:
+#     print("Invallid username")
+    
+# check username and password together
+
+# username="simran"
+# password="1234"
+
+# if username =="simran" and password=="1234":
+
+#     print("login successful")
+# else:
+#     print("Invalid crediantials")
+
+# check whether marks represent a pass or fail
+
+# marks=45
+# if marks >=33:
 #     print("Pass")
 # else:
 #     print("Fail")
 
-# marks= int(input("Enter marks :"))
+# assign a grade based marks
+
+# marks = 85
 
 # if marks >=90:
 #     print("Grade A")
-# elif marks >=75:
+# elif marks >= 75:
 #     print("Grade B")
-# elif marks >=60:
+# elif marks >= 75:
 #     print("Grade C")
-# elif marks >=40:
+# elif marks >= 75:
 #     print("Grade D")
-# else :
+# else:
 #     print("Fail")
 
-# check if a number is divisible by both 3 and 5
+# check whether the temperature is cold or not
 
-# num=int(input("Enter number:"))
+# temperature = 32
 
-# if num % 3==0 and num %5==0:
-#     print("Divisible by both")
+# if temperature > 25:
+#     print("Hot")
 # else:
-#     print("Not divisible by both")
+#     print("Cold")
 
-# find the absolute value
 
-# num = int(input("ENter number :"))
+# check whether it is morning,evening or afternoon
 
-# if num < 0:
-#     print(-num)
+# hour=15
+
+# if hour <12:
+#     print("Morning")
+# elif hour < 18:
+#     print("afternoon")
 # else:
-#     print(num)
+#     print("Evening")
 
-# check if a person is a senior citizen
+# check whether the number has one two or three digit
 
-# age=int(input("Enter age :"))
+# num = 75
 
-# if age >=60:
-#     print("Senior citizen")
+# if num <10:
+#     print("One digit")
+# elif num < 100:
+#     print("Two digit")
 # else:
-#     print("Not a senior citizen")
+#     print("Three or more digits")
 
-# check password
-
-# password=int(input("Enter Password"))
-
-# if password =="python1123":
-#     print("Access granted")
-# else:
-#     print("Wrong password")
-    
-# check whether a number is a multiple of 10
-
-# num=int(input("Enter number:"))
-
-# if num % 10==0:
-#     print("Multiple of 10")
-# else:
-#     print("Wrong password")
-
-# check whether a number is between 1 and 100
-
-# num = int(input("Enter number :"))
-
-# if 1 <=num <=100:
-#     print("Number is between 1 and 100")
-# else:
-#     print("outside the range ")
-
-# find the smallest of 2 number 
-
-# a = int(input())
-# b=  int(input())
-
-# if a < b :
-#     print(a)
-# else:
-#     print(b)
-
-
-# check if a person can get a driving license
-
-# age=int(input("Enter age :"))
-      
-# if age >=18:
-#     print("eligible for driving")
-# else:
-#     print("Not eligible")
-
-# simple calculator using if-elif-else
-
-# a = int(input("Enter first number: "))
-# b = int(input("Enter second number: "))
-# op = input("Enter operator (+, -, *, /): ")
-
-# if op == "+":
-#     print("Result =", a + b)
-# elif op == "-":
-#     print("Result =", a - b)
-# elif op == "*":
-#     print("Result =", a * b)
-# elif op == "/":
-#     if b != 0:
-#         print("Result =", a / b)
-#     else:
-#         print("Division by zero is not allowed")
-# else:
-#     print("Invalid operator")
-
-# check if number is positive , negative or zero
-
-# num = int(input("Enter a number :"))
-
-# if num > 0:
-#     print("Positive number")
-# elif num < 0:
-#     print("Negative number")
-# else:
-#     print("Zero")
-
-# check if number is odd or even
-
-# num = int(input("Enter a number :"))
-
-# if num %2 ==0:
-#     print("Even number")
-# else:
-#     print("Odd number")
-
-# find the largest of 2 numbers
-
-# a=int(input("Enter first number :"))
-# b=int(input("Enter second number"))
-
-# if a > b :
-#     print(a, "is largest")
-# else:
-#     print(b, "is largest")
-
-# find the largest of 2 numbers
-
-# a=int(input("Enter first number :"))
-# b=int(input("Enter second number"))
-
-# if a > b :
-#     print(a,"is largest")
-# else:
-#     print(b,"is largest")
-
-# find largest of three number 
-
-# a=int(input("Enter first number :"))
-# b=int(input("Enter second number"))
-# c=int(input("Enter third number"))
-
-# if a >= b and a >=c:
-#     print(a, "is largest")
-# elif b >= a and b >=c:
-#     print(b,"is largest")
-# else:
-#     print(c, "is largest")
-
-# check voting eligibility
-
-# age=int(input("Enter age :"))
-
-# if age >=18:
-#     print("Eligible to vote")
-# else:
-#     print("not eligible to vote")
-
-# check leap year
-
-# year = int(input("Enter a year :"))
-
-# if (year % 400 ==0) or (year % 4 ==0 and year % 100!=0) :
-#     print("Leap year")
-# else :
-#     print("Not leap year")
-
-# create a list of fruit
-# fruits =["Apple" , "Banana" ,"Mango","Orange"]
-
-# print(fruits)
-
-# acess list  elements
-
-# numbers =[10,20,30,40,50]
-
-# print("First element : ",
-# numbers[0])
-
-# print("Last element:")
-# numbers[-1]
-
-# add an element
-
-# colors =["Red" , "Blue" , "Green"]
-
-# colors.append("Yellow")
-# print(colors)
-
-# remove an element
-
-# animals= ["Dog" , "Cat" , "Cow"]
-
-# animals.remove("Cow")
-
-# print(animals)
-
-# update a list element
-
-# cities =["Delhi" , "Mumbai" , "Pune"]
-# cities[2] = "Jaipur"
-# print(cities)
-
-# find the length of a list
-
-# languages = ["python" , "Java" ,"C" , "Javascript"]
-
-# print("Length of list :" , len(languages))
-
-# check if an item exists
-
-# fruits = ["Apple" , "Banana" , "Mango"]
-
-# if "Banana" in fruits:
-#     print("Banana is present")
-# else:
-#     print("Banana is not present")
-
-# sort a list
-
-# numbers=[12,103,67,88,90]
-
-# numbers.sort()
-
-# print(numbers)
-
-# reverse a list 
-
-# numbers = [ 1,2 ,4,7,8]
-
-# numbers.reverse()
-# print(numbers)
-
-# find the sum of list elements
-
-# numbers = [1,2,3,6,7,8]
-
-# total =sum(numbers)
-# print("sum =" , total)
-
-# create a tuple
-
-# numbers=(10,20,30,40,50)
-# print(numbers)
-
-# access tuple elements
-
-# colors=("Red" , "Blue" , "Yellow" , "Green")
-
-# print("Second element :" , colors[1])
-# print("Last element :" , colors[-1])
-
-# find the length of tuple
-
-# fruits =("Apple" , "Banana" , "Mango")
-
-# print("Length of tuple :", len(fruits))
-
-# check if an item exists in a tuple
-
-# numbers =(10,20,30,40,50)
-
-# if 20 in numbers:
-#     print("20 is present")
-# else:
-#     print("20 is not present")
-
-# count an element in a tuple
-
-# numbers = (1,2,3,4,5,1,3,3)
-
-# count = numbers.count(2)
-
-# print("count of 3 =" , count)
-
-# create a dictionary and print all key-value pair
-
-# student= {
-#     "name" : "Simran",
-#     "age"  : 22,
-#     "Course" : "Python"
-# }
-
-# student["city"] ="Delhi"
-# student["age"] =23
-# del student["city"]
-# for key, value in student.items():
-#     print(key, ":" , value)
-
-# print(student["Course"])
-
-# count the frequency of each character
-
-# text ="Banana"
-
-# frequency ={}
-
-# for ch in text :
-#     if ch in frequency:
-#         frequency[ch] += 1
-#     else :
-#         frequency[ch] = 1
-        
-# print(frequency)
-
-# find the highest value
-
-# marks ={
-#     "Math" : 90,
-#     "English" : 85,
-#     "Science" : 95
-# }
-# highest =max(marks.values())
-
-# print(highest)
-
-# merge two dictionaries
-
-# d1= {
-#     "a" : 1,
-#     "b" :2
-# }
-
-# d2 = {
-#     "c": 3,
-#     "d": 4
-# }
-
-# d1.update(d2)
-# print(d1)
-
-# print only keys
-
-# student={
-#     "name" :"simran",
-#     "age" :22,
-#     "course":"Python"
-# }
-
-# for key in student.keys():
-#     print(key)
-    
-# for value in student.keys():
-#     print(value)
-
-# create a set and print it
-
-# numbers = {1,2,3,4,5}
-# print(numbers)
-
-# add an element to the set
-
-# numbers = {1,2,3}
-# numbers.add(4)
-# print(numbers)
-
-# remove an element
-
-# numbers ={1,2,3,4}
-# numbers.remove(2)
-# print(numbers)
-
-# find union of two sets
-
-# set1 ={1,2,3}
-# set2={4,5,6}
-
-# result = set1.union(set2)
-
-# print(result)
-
-# find intersection
-
-# set1 = {1,2,3}
-# set2 = {2,3,4}
-
-# print(set1.intersection(set2))
-
-# find difference 
-# set1 ={1,2,3,4,5}
-# set2={3,4}
-
-# print(set1.difference(set2))
-
-# check if an element exists
-
-# numbers ={10,20,30,40,8}
-
-# if 90 in numbers:
-#     print("Found")
-# else:
-#     print("Not found")
-
-# remove duplicate values
-
-# numbers =[1,2,3,4,6,7,8,7,6,1,2,3]
-
-# unique =set(numbers)
-
-# print(unique)
-
-# find symmetric difference
-
-# set1 ={1,2,3}
-# set2={3,4,5}
-
-# print(set1.symmetric_difference(set2))
-
-# clear all elements from a set
-
-# numbers ={1,2,3,4}
-
-# numbers.clear()
-
-# print(numbers)
-
-# i=1
-
-# while i <=10:
-#     print(i)
-#     i +=1
-
-# print numbers from 10 to 1
-
-# i = 100
-# while i >= 1:
-#     print(i)
-#     i -=1
-    
-# print even numbers from 1 to 20
-
-# i = 2
-# while i <= 20:
-#     print(i)
-# i +=2
-
-# print odd numbets from 1 to 20
-
-# i = 1
-
-# while i <= 20:
-#     print(i)
-#     i += 2
-
-# print the multplication table of a number
-
-# numbers = int(input("ENter number :"))
-# i = 1
-
-# while i <= 10:
-#     result = numbers* i
-
-#     print(numbers, "x",i,"=",result)
-#     i+=1
-
-# def greet(name):
-#     print("Hello" , name)
-# greet("Simran")
-
-# def add_numbers(a,b):
-#     return a+b
-# result=add_numbers(109,20)
-# print("Sum :" , result)
-
-# check whether a number is even or odd
-
-# def check_even_odd(number):
-#     if number %2==0:
-#         print(number,"is even")
-#     else:
-#         print(number,"is odd")
-        
-# check_even_odd(2)
-        
-        
 # find the largest of three numbers
 
-# def find_largest(a,b,c):
-#     if a >=b and a>=c:
-#         return a
-#     elif b >= a and b >=c:
-#         return b
-#     else:
-#         return c
-    
-# largest = find_largest(120,13,14)
-# print("Largest number :" , largest)
+# a=10
+# b=25
+# c=15
 
-# calculate factorial of a number
-
-# def factorial(number):
-#     result = 1
-    
-#     for i in range(1, number + 1):
-#         result=result*i
-
-#     return result
-
-# answer = factorial(5)
-# print("Factorial:", answer)
-
-# def say_hello():
-#     print("Hello !")
-# say_hello()
-
-# def add(a,b):
-#     result=a+b
-#     print(result)
-# add(2,1)
-
-# print a person name
-
-# def show_name(name):
-#     print("My name is" , name)
-    
-# show_name("sneha")
-
-# find the square of a number
-# def square(number):
-#     result=number*number
-#     print(result)
-# square(55)
-
-# check if a number is positive
-
-# def check_positive(number):
-#     if number > 0:
-#         print('Positive number')
-#     else:
-#         print('Not a positive number')
-# check_positive(20)
-
-
-# file= open("student.txt" ,"w")
-
-# file.write("Name : Simran\n")
-# file.write("Course : Data Science\n")
-# file.write("Topic : Deep Learning\n")
-
-# file.close()
-
-# print("Data written successfully !")
-
-# file=open("student.txt", "r")
-
-# content=file.read()
-# print(content)
-
-# file.close()
-
-
-# file=open("student.txt", "a")
-# file.write("\nStatus : Learning Python ")
-
-# file.close()
-
-# print("Data added successfully")
-
-# file=open("student.txt" , "r")
-
-# for line in file:
-#     print(line.strip())
-# file.close()
-
-# count the numbers of lines in a file
-
-# file=open("student.txt" , "r")
-
-# lines=file.readlines()
-
-# print("Total lines:" , len(lines))
-# file.close()
-
-# file =open("student.txt","r")
-
-# content =file.read()
-# words=content.split()
-
-# print("Total words:" , len(words))
-# file.close()
-
-# file =open("student.txt","r")
-
-# content=file.read()
-# word=input("Enter a word to search: ")
-
-# if word.lower() in content.lower():
-#     print("Word found")
+# if a >=b and a >=c:
+#     print("a is largest")
+# elif b >=a and b >=c:
+#     print("b is largest")
 # else:
-#     print("Word not found")
-    
-# file.close()
+#     print("C is largest")
 
-# source=open("source.txt", "r")
-# destination=open("destination.txt","w")
+# find the smallest of three numbers
 
-# content=source.read()
-# destination.write(content)
+# a = 100
+# b=12
+# c=90
 
-# source.close()
-# destination.close()
+# if a <= b and a <=c:
+#     print("a is smallest")
+# elif b <=a and b<=c:
+#     print("B is smallest")
+# else:
+#     print("C is smallest")
 
-# print("File copied successfully !")
+# check whether a leap is a leap year
 
-# file=open("source.txt" ,"r")
+# year = 2024
 
-# content=file.read()
+# if year % 400==0:
+#     print("Leap year")
+# elif year % 100==0:
+#     print("nOt a leap year")
+# elif year %4==0:
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
 
-# print("total characters:" , len(content))
-# file.close()
+# check whether a number is between 0 and 1 
 
-# file=open("source.txt","w")
-# file.write("Hello Python")
-# file.close()
+# num = 7
+# if num <=num<=10:
+#     print("number is betwwen 1 and 10")
+# else:
+#     print("number is outside the range")
 
-# file=open("source.txt","r")
-# content=file.read()
-# print(content)
-# file.close()
+# check whethe rthe number is outside the range 1 and 100
 
-# file=open("source.txt","a")
-# file.write("\nI am learning Python")
-# file.close()
+num = 10
 
-# file=open("source.txt","r")
-# content=file.read()
-# print(content)
-# file.close()
-
-# file=open("source.txt","r")
-# line=file.readline()
-# print(line)
-# file.close()
-
-
-# file=open("source.txt","r")
-# content=file.read()
-# print("Total characters:")
-# len(content)
-# file.close()
-
-# source=open("source.txt" , "r")
-# destination = open("destination.txt","w")
-
-# content=source.read()
-# destination.write(content)
-
-# source.close()
-# destination.close()
-
-# print("file copied successfully !")
-
-# file=open("destination.txt","r")
-# content=file.read()
-# print(content)
-# file.close()
-
-# file=open("student.txt","r")
-
-# lines=file.readline()
-# print("Total lines : ",len(lines))
-# file.close()
-
-# file=open("source.txt","r")
-# content=file.read()
-# print(content.lower())
-# file.close()
-
-# file=open("student.txt","r")
-
-# for line in file:
-#     print(line.strip())
-    
-# file.close()
-
-# file=open("student.txt","a")
-# file.write("\nCity: Delhi")
-# file.close()
-# print("New city added successfully")
-# create a class named student
-
-# class Student:
-#     pass
-# s1=Student()
-
-# print(s1)
-
-# # create a class student with a name
-# class Student:
-#     name="Simran"
-# s1=Student()
-# print(s1.name)
-
-# class Student:
-#     name="Simran"
-#     age=20
-# s1=Student()
-# print(s1.name)
-# print(s1.age)
-
-# class Greeting:
-#     def say_hello(self):
-#         print("Hello")
-# g1=Greeting()
-# g1.say_hello()
-
-# create a dog class
-
-# class Dog:
-#     def bark(self):
-#         print("Dog is barking")
-# d1=Dog()
-# d1.bark()
-    
-# .create a class with a method to add two numbers
-# class Calculator:
-#     def add(self):
-#         a=5
-#         b=10
-#         print(a+b)
-# c1=Calculator()
-# c1.add()
-
-# create a constructor
-
-# class Person:
-#     def __init__(self,name):
-#         self.name=name
-# p1=Person("Simran")
-# print(p1.name)
-
-# print student details
-
-# class Student:
-#     def __init__(self,name,course):
-#         self.name=name
-#         self.course=course
-
-# s1=Student("Simran","Python")
-
-# print(s1.name)
-# print(s1.course)
-
-# create a car class
-# class Car:
-#     def run(self):
-#         print("Car is running")
-        
-# c1=Car()
-# c1.run()
-
-    # make an abstract class
-    
-# from abc import ABC
-
-# class Animal(ABC):
-#     pass
-
-
-# from abc import ABC, abstractmethod
-
-# class Vehicle(ABC):
-
-#     @abstractmethod
-#     def start(self):
-#         pass
-
-# class Car(Vehicle):
-
-#     def start(self):
-#         print("Car started")
-
-# c = Car()
-# c.start()
-
-# from abc import ABC
-# class Animal(ABC):
-#     pass
-
-# from abc import ABC, abstractmethod
-
-# class Animal(ABC):
-
-#     @abstractmethod
-#     def sound(self):
-#         pass
-
-# from abc import ABC, abstractmethod
-
-# class Animal(ABC):
-
-#     @abstractmethod
-#     def sound(self):
-#         pass
-
-# class Dog(Animal):
-
-#     def sound(self):
-#         print("Bark")
-
-# d = Dog()
-# d.sound()
-
-# from abc import ABC, abstractmethod
-
-# class Vehicle(ABC):
-
-#     @abstractmethod
-#     def start(self):
-#         pass
-    
-    
-# from abc import ABC, abstractmethod
-
-# class Vehicle(ABC):
-
-#     @abstractmethod
-#     def start(self):
-#         pass
-
-# class Car(Vehicle):
-
-#     def start(self):
-#         print("Car started")
-
-# c = Car()
-# c.start()
-
-# for i in range(1,6):
-#     print(i)
-    
-# for i in range(1,11):
-#     print(i)
-
-# for i in range(4):
-#     print("Hello !")
-    
-# for i in range(2,11,2):
-#     print(i)
-
-# for i in range(1,10,2):
-#     print(i)
-
-# for i in range(5,0,-1):
-#     print(i)
-
-# for i in "Python":
-#     print(i)
-
-# i=1
-
-# while i <=5:
-#     print(i)
-#     i+=1
-
-# i=1
-
-# while i <=3:
-#     print("Python")
-#     i+=1
-
-# for i in range(1,11):
-#     print(2*i)
-
-# for i in range(10,16):
-#     print(i)
- 
-# for i in range(40):
-#     print("Welcome back")
-
-# for i in range(10,0,-1):
-#     print(i)
-
-# for i in range(5,26,5):
-#     print(i)
-
-# fruits=["Apple","Mango","Straberry"]
-
-# for fruit in fruits:
-#     print(fruit)
-
-# for i in range(7):
-#     print("Simran")
-
-# for i in range(6,11):
-#     print(6*i)
-
-
-# for i in range(20,26):
-#     print(i)
-
-# for i in range(5):
-#     print("Good morning")
-
-# for i in range(3,16,3):
-#     print(i)
-
-# i = 5
-
-# while i <=10:
-#     print(i)
-#     i+=1
-
-# name = "Shivani"
-# for i in name:
-#     print(i)
-
-# for i in range(1,6):
-#     print(i*i*i)
-
-# for i in range(1,16,2):
-#     print(i)
-
-# colors=["Red","Green","blue"]
-
-# for i in colors:
-#     print(i)
-
-# for i in range(1,11):
-#     print(10*i)
-
-# for i in range(1,11):
-#     print(i)
-
-# for i in range(10,0,-1):
-#     print(i)
-
-# for i in range(1,21):
-#     if i %2==0:
-#         print(i)
-
-# for i in range(1,21):
-#     if i %4==0:
-#         print(i)
-
-# for i in range(1,100):
-#     print(5,"x",i,"=",5*i)
-
-# calculate the sum of numbers from 1 to 10
-
-# total=0
-
-# for i in range(1,11):
-#     total =total +i
-    
-# print("Sum =", total)
-
-# number=int(input("ENter a number :"))
-
-# for i in range(1,11):
-#     print(number,"x",i,"=",number *i)
-
-# .count vowels in a string
-# text=input("ENter a string :")
-# count = 0
-
-# for character in text:
-#     if character.lower()in "aeiou":
-#         count = count +1
-        
-# print("Number of vowels:" ,count)
-
-# text="Python"
-# for character in text:
-#     print(character)
-
-number = int(input("Enter a number :"))
-factorial=1
-
-for i in range(1,number +1):
-    factorial=factorial*i
-
-print("Factorial =",factorial)
+if num <1 or num> 100:
+    print("outsid ethe range")
+else:
+    print("Inside the range")
