@@ -1384,10 +1384,69 @@
 
 # check whether a number exists in a list
 
-numbers=[10,20,30,40,50]
-num=20
+# numbers=[10,20,30,40,50]
+# num=20
 
-if num in numbers:
-    print("Number found")
+# if num in numbers:
+#     print("Number found")
+# else:
+#     print("not found")
+
+# checl traffic light instructions
+
+# light = "Red"
+
+# if light =="Red":
+#     print("Stop")
+# elif light =="yellow":
+#     print("Wait")
+# elif light =="Green":
+#     print("Go")
+# else:
+#     print("invalid signal")
+
+# check day type
+
+# day ="Sunday"
+# if day=="Saturday"or day=="Sunday":
+#     print("weekend")
+# else:
+#     print("Weekday")
+
+# check whether three sides form a triangle
+
+# a=3
+# b=4
+# c=1
+
+# if a +b>c and a+c>b and b +c>a:
+#     print("valid triangle")
+# else:
+#     print("invalid triangle")
+
+# check whether a person qualifies for a loan based on age and salary
+
+# age=25
+# salary=30000
+
+# if age >=21 and salary>=25000:
+#     print("Eligible for a loan")
+# else:
+#     print("Not eligible for loan")
+
+# create a simple calculator using conditionals
+
+a=10
+b=5
+operator="+"
+
+if operator =="+":
+    print(a+b)
+elif operator =="-":
+    print(a-b)
+elif operator =='*':
+    print(a*b)
+elif operator =="/":
+    print(a/b)
 else:
-    print("not found")
+    print("invalid operator")
