@@ -1249,9 +1249,100 @@
 
 # check whethe rthe number is outside the range 1 and 100
 
-num = 10
+# num = 10
 
-if num <1 or num> 100:
-    print("outsid ethe range")
+# if num <1 or num> 100:
+#     print("outsid ethe range")
+# else:
+#     print("Inside the range")
+
+#  check if a person can drive
+
+# age=20
+
+# if age >=18:
+#     print("Can drive")
+# else:
+#     print("Cannot drive")
+
+# check ticket price based on age
+
+# age =12
+
+# if age <5:
+#     print('Free ticket')
+# elif age <18:
+#     print("Child ticket")
+# else:
+#     print("Adult ticket")
+
+# check whether  anumber is positive, negative or 0
+
+# num=8
+
+# if num > 0:
+#     print("Positive")
+# elif num<0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+# check whether the number is even or odd
+# num=11
+
+# if num %2==0:
+#     print("Even")
+# else:
+#     print("odd")
+
+# check whether the person is child, teenage or adult
+# age = 16
+
+# if age <13:
+#     print("Child")
+# elif age <18 :
+#     print("Teenager")
+# else:
+#     print("Adult")
+
+# check whether a number is multiple of 7
+
+# num=49
+
+# if num %7==0:
+#     print("Multiple of 7")
+# else:
+#     print('not a multiple of 7')
+
+# check if a shopping qualifies for a discount
+
+# amount=1000
+
+# if amount >=10000:
+#     print("discount available")
+# else:
+#     print("not available")
+
+# check if a student is eligible for an exam
+
+# attendance = 80
+
+# if attendance >=75:
+#     print("Eligible for an exam")
+# else:
+#     print("Not eligible for an exam")
+
+# check if a number is both positive and even
+# num=12
+# if num > 0 and num%2==0:
+#     print('Positive and even')
+# else:
+#     print("Condition not satisfied")
+
+# check if number is negative or odd
+
+num=12
+if num <0 and num % 2!=0:
+    print("negative and odd")
 else:
-    print("Inside the range")
+    print("condition not satisified")
