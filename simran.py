@@ -1836,27 +1836,117 @@
 
 # check number sign and parity
 
-num=int(input("ENter a number :"))
+# num=int(input("ENter a number :"))
 
-if num >0:
-    if num %2==0:
-        print("Positive and even")
-    else:
-        print("Positive and odd")
-elif num <0:
-    if num %2==0:
-        print("Negative and even")
-    else:
-        print("Negative and odd")
+# if num >0:
+#     if num %2==0:
+#         print("Positive and even")
+#     else:
+#         print("Positive and odd")
+# elif num <0:
+#     if num %2==0:
+#         print("Negative and even")
+#     else:
+#         print("Negative and odd")
+# else:
+#     print("Zero")
+
+# amount=float(input("Enter purchase amount :"))
+
+# if amount >=10000:
+#     discount=amount*0.10
+#     final_amount=amount-discount
+# else:
+#     final_amount=amount
+
+# print("Final amount :",final_amount)
+
+# Salary Bonus calculator
+
+# salary=float(input("Enter salary:"))
+# years=int(input("Enter years of service :"))
+
+# if years>=5:
+#     bonus=salary*0.10
+# else:
+#     print("Bonus :", bonus)
+
+# electricity bill calculator
+
+# units = int(input("Enter electricity units :"))
+
+# if units<=100:
+#     bill=units*5
+# elif units <=200:
+#     bill=100*5 +(units-100) *7
+# else:
+#     bill =100*5 +100*7 +(units-200) *10
+    
+# print("Electricity bill :",bill)
+
+# movie ticket price based on age
+
+# age=int(input("Enter your age:"))
+
+# if age <5:
+#     price=0
+# elif age<=12:
+#     price=100
+# elif age<=60:
+#     price=200
+# else:
+#     price =120
+    
+# print("Ticket price :",price)
+
+# atm withdrawl validation
+
+# balance=10000
+# amount=int(input("ENter withdrawl amount :"))
+
+# if amount<=0:
+#     print("Invalid amount")
+# elif amount > balance:
+#     print("Insufficient balance")
+# elif amount % 100!=0:
+#     print("ENter amount in multiples of 100")
+# else:
+#     balance-=amount
+#     print("Withdrawal successful")
+#     print("Remaining balance :",balance)
+
+# password strength checker
+
+# password=input("Enter password :")
+
+# if len(password)<8:
+#     print("Weak password")
+# elif password.isalpha() or password.isdigit():
+#     print("Medium password")
+# else:
+#     print("Strong password")
+
+# check valid month number
+
+# month=int(input("ENter month number :"))
+
+# if 1<=month<12:
+#     print("Valid month")
+# else:
+#     print("Invalid month")
+
+# find number of days in a month
+
+month=int(input("ENter month number :"))
+
+if month in[1,3,5,7,8,10,12]:
+    print("31 days")
+elif month in[4,6,9,11]:
+    print("30 days")
+elif month==2:
+    print("28 or 29 days")
 else:
-    print("Zero")
-
-
-
-
-
-
-
+    print("Invalid month")
 
 
 
