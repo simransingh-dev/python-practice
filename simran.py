@@ -1764,11 +1764,102 @@
 
 # check valid traingle
 
-a=float(input("Enter first side:"))
-b=float(input("ENter second side:"))
-c=float(input("Enter third side :"))
+# a=float(input("Enter first side:"))
+# b=float(input("ENter second side:"))
+# c=float(input("Enter third side :"))
 
-if a+b >c and a+c>b and b+c>a:
-    print("Valid triangle")
+# if a+b >c and a+c>b and b+c>a:
+#     print("Valid triangle")
+# else:
+#     print("Invalid triangle")
+
+# identify triangle type
+
+# a=float(input("ENter first side:"))
+# b=float(input("ENter second side :"))
+# c=float(input("Enter third side :"))
+
+# if a == b ==c:
+#     print("Equilateral triangle")
+# elif a==b or b==c or a==c:
+#     print("Isoscelles triangle")
+# else:
+#     print("Scalene triangle")
+
+# check right angled triangle
+# a=float(input("Enter first side:"))
+# b=float(input("Enter second side :"))
+# c=float(input("Enter third side :"))
+
+# sides=sorted([a,b,c])
+
+# if sides[0]**2 +sides[1] **2 ==sides[2] **2:
+#     print("Right angled triangle")
+# else:
+#     print("Not a right angled triangle")
+
+# simple calculator
+
+# a=float(input("enter first number :"))
+# operator=input("Enter operator(+,-,*,/)")
+# b=float(input("enter secopnd number :"))
+
+# if operator=="+":
+#     print("Result:" ,a+b)
+# elif operator =="-":
+#     print("Result",a-b)
+# elif operator =="*":
+#     print("Result :",a*b)
+#     if b!=0:
+#         print("Result",a/b)
+#     else:
+#         print("Cannot divided by zero")
+# else:
+#     print("invalid operator")
+
+# check 3 digit number 
+# num=int(input("Enter a number :"))
+
+# if 100<=abs(num) <=999:
+#     print("Three-digit number")
+# else:
+#     print("Not a three-digit number")
+
+# check whether last digit is 5
+
+# num=int(input("Enter a number :"))
+
+# if abs(num) % 10==5:
+#     print("Last digit is 5")
+# else:
+#     print("Last digit is not 5")
+
+# check number sign and parity
+
+num=int(input("ENter a number :"))
+
+if num >0:
+    if num %2==0:
+        print("Positive and even")
+    else:
+        print("Positive and odd")
+elif num <0:
+    if num %2==0:
+        print("Negative and even")
+    else:
+        print("Negative and odd")
 else:
-    print("Invalid triangle")
+    print("Zero")
+
+
+
+
+
+
+
+
+
+
+
+
+
