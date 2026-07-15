@@ -1542,13 +1542,115 @@
 
 # find smallest of three numbers
 
-a=int(input("Enter first number :"))
-b=int(input("Enter second number :"))
-c=int(input("Enter third number :"))
+# a=int(input("Enter first number :"))
+# b=int(input("Enter second number :"))
+# c=int(input("Enter third number :"))
 
-if a <=b and a<=c:
-    print(a,"Is smallest")
-elif b <=a and b<=c:
-    print(b,"Is smallest")
+# if a <=b and a<=c:
+#     print(a,"Is smallest")
+# elif b <=a and b<=c:
+#     print(b,"Is smallest")
+# else:
+#     print(c,"is smallest")
+
+# checking driving eligibility
+
+# age=int(input("Enter your age :"))
+
+# if age >=18:
+#     print("Eligible to drive")
+# else:
+#     print("Not eligible to drive")
+    
+# check whether a number is multiple of 10
+
+# num=int(input("Enter a number :"))
+
+# if num %10==0:
+#     print("Multiple of 10")
+# else:
+#     print("Not multiple of 10")
+
+# check uppercase or lowercase
+
+# char=input("Enter a character:")
+
+# if char.isupper():
+#     print("Uppercase")
+# elif char.islower():
+#     print("Lowercase")
+# else:
+#     print("Not an alphabet")
+
+
+# grade calculator
+
+# marks=float(input("Enter your marks:"))
+
+# if marks >=90:
+#     print("GRade A")
+# elif marks >=80:
+#     print("Grade B")
+# elif marks >=70:
+#     print("Grade C")
+# elif marks>=60:
+#     print("Grade D")
+# else:
+#     print("Grade F")
+
+# check pass or fail
+
+# marks=float(input("Enter marks:"))
+# if marks >=40:
+#     print("Pass")
+# else:
+#     print("Fail")
+
+# check number range
+
+# num=int(input("Enter a number :"))
+
+# if 1<= num <=100:
+#     print("Number is between 1 and 100")
+# else:
+#     print("Number is outisde the range")
+
+
+# check teenager 
+
+# age=int(input("Enter your age :"))
+
+# if 13 <= age <=19:
+#     print("Teenager")
+# else:
+#     print("Not a teenager")
+
+# simple login system
+
+# username=input("Enter username:")
+# password =input("Enter password:")
+
+# if username =="admin" and password=="1234":
+#     print("Login successful")
+# else:
+#     print("Invalid username or password")
+
+# check alphabet , digit or special character
+
+# char=input("Enter a charater")
+
+# if char.isalpha():
+#     print("Alphabet")
+# elif char .isdigit():
+#     print("Digit")
+# else:
+#     print("Special character")
+
+# check divisibility  by 2 or 3
+
+num=int(input("Enter a number :"))
+
+if num %2==0 and num%3==0:
+    print("Divisible by 2 or 3")
 else:
-    print(c,"is smallest")
+    print("Not divisible")
