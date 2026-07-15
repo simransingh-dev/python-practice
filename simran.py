@@ -1436,17 +1436,119 @@
 
 # create a simple calculator using conditionals
 
-a=10
-b=5
-operator="+"
+# a=10
+# b=5
+# operator="+"
 
-if operator =="+":
-    print(a+b)
-elif operator =="-":
-    print(a-b)
-elif operator =='*':
-    print(a*b)
-elif operator =="/":
-    print(a/b)
+# if operator =="+":
+#     print(a+b)
+# elif operator =="-":
+#     print(a-b)
+# elif operator =='*':
+#     print(a*b)
+# elif operator =="/":
+#     print(a/b)
+# else:
+#     print("invalid operator")
+
+# num=int(input("ENter a number :"))
+
+# if num > 0:
+#     print("Positive")
+# elif num < 0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+# check even or odd
+
+# num=int(input("ENter a number :"))
+# if num %2==0:
+#     print("EVen")
+# else:
+#     print("Odd")
+ # checking voting eligibility
+
+# age=int(input("ENter your age :"))
+
+# if age >=18:
+#     print("Eligible to vote")
+# else:
+#     print("Not eligible to vote")
+
+# find greatest of two numbers
+
+# a=int(input("ENter first number :"))
+# b=int(input("ENter second number:"))
+
+# if a>b:
+#     print(a,"is greater")
+# elif b>a:
+#     print(b,"is greater")
+# else:
+#     print("Both numbers are equal")
+
+# check divisibility by 5
+
+# num=int(input("ENter a number :"))
+
+# if num %5 ==0:
+#     print("DIvisible by 5")
+# else:
+#     print("Not divisible by 5")
+
+# check divisibility by both 3 and 5
+
+# num=int(input("Enter a number :"))
+
+# if num %3==0 and num%5==0:
+#     print("divisible by both")
+# else:
+#     print("Not divisible")
+
+# check leap year
+
+# year=int(input("Enter a year :"))
+
+# if year %400==0:
+#     print("Leap year")
+# elif year %100==0:
+#     print("not a leap year")
+# elif year %4==0:
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+# check vowel or consonent
+
+# char=input("Enter a character :").lower()
+# if char in "aeiou":
+#     print("Vowel")
+# else:
+#     print("consonent")
+
+# find the largest of three numbers
+
+# a=int(input("Enter first number :"))
+# b=int(input("Enter second number :"))
+# c=int(input("Enter third number :"))
+
+# if a >=b and a >=c:
+#     print(a,"is largest")
+# elif b >=a and b >=c:
+#     print(b,"is largest")
+# else:
+#     print(c,"is largest")
+
+# find smallest of three numbers
+
+a=int(input("Enter first number :"))
+b=int(input("Enter second number :"))
+c=int(input("Enter third number :"))
+
+if a <=b and a<=c:
+    print(a,"Is smallest")
+elif b <=a and b<=c:
+    print(b,"Is smallest")
 else:
-    print("invalid operator")
+    print(c,"is smallest")
