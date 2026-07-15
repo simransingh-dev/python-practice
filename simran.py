@@ -1648,9 +1648,65 @@
 
 # check divisibility  by 2 or 3
 
-num=int(input("Enter a number :"))
+# num=int(input("Enter a number :"))
 
-if num %2==0 and num%3==0:
-    print("Divisible by 2 or 3")
+# if num %2==0 and num%3==0:
+#     print("Divisible by 2 or 3")
+# else:
+#     print("Not divisible")
+
+# temperature = float(input("Enter temperature:"))
+
+# if temperature <10:
+#     print("Cold")
+# elif temperature<=25:
+#     print("Moderate")
+# else:
+#     print("Hot")
+
+# age category
+
+# age=int(input("Enter your age:"))
+
+# if age <13:
+#     print("Child")
+# elif age <20:
+#     print("Teenager")
+# elif age <60:
+#     print("Adult")
+# else:
+#     print("Senior citizen")
+
+# check three digit number
+
+# num=int(input("Enter a number :"))
+
+# if 100 <=abs(num) <=999:
+#     print("Three digit number")
+# else:
+#     print("Not a three digit number")
+
+# check whether last digit is 5
+# num=int(input("Enter an number :"))
+
+# if abs(num) % 10 ==5:
+#     print("Last digit is 5")
+# else:
+#     print("Last digit is not")
+
+# check number sign and parity
+
+num=int(input("EWnter a number :"))
+
+if num >0:
+    if num %2==0:
+        print("Positive and even")
+    else:
+        print("Positive and odd")
+elif num <0:
+    if num % 2==0:
+        print("Negative and even")
+    else:
+        print("Negative and odd")
 else:
-    print("Not divisible")
+    print("Zero")
