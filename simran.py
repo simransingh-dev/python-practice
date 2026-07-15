@@ -1696,17 +1696,79 @@
 
 # check number sign and parity
 
-num=int(input("EWnter a number :"))
+# num=int(input("EWnter a number :"))
 
-if num >0:
-    if num %2==0:
-        print("Positive and even")
-    else:
-        print("Positive and odd")
-elif num <0:
-    if num % 2==0:
-        print("Negative and even")
-    else:
-        print("Negative and odd")
+# if num >0:
+#     if num %2==0:
+#         print("Positive and even")
+#     else:
+#         print("Positive and odd")
+# elif num <0:
+#     if num % 2==0:
+#         print("Negative and even")
+#     else:
+#         print("Negative and odd")
+# else:
+#     print("Zero")
+
+# calculate discount 
+
+# amount=float(input("Enter purchase amount :"))
+# if amount >=1000:
+#     discount=amount*0.10
+#     final_amount=amount-discount
+# else:
+#     final_amount=amount
+
+# print("Final amount:", final_amount)
+
+# Salary bonus calculator
+
+# salary=float(input("Enter salary:"))
+# years=int(input("Enter yuears of service:"))
+
+# if years>=5:
+#     bonus=salary*0.10
+# else:
+#     bonus=0
+    
+# print("Bonus :" ,bonus)
+
+# electricity bill calculator
+
+# units=int(input("enter electricity units:"))
+
+# if units<=100:
+#     bill=units*5
+# elif units<=200:
+#     bill=100*5 +(units-100)*7
+# else:
+#     bill=100*5 + 100*7+(units-200) *10
+    
+# print("ELectricity bill",bill)
+
+# bmi category
+# weight=float(input("ENter weight in kg :"))
+# height=float(input("Enter height in meters :"))
+
+# bmi=weight /(height **2)
+
+# if bmi < 18.5:
+#     print("Underweight")
+# elif bmi<25:
+#     print("Normal weight")
+# elif bmi <30:
+#     print("Overweight")
+# else:
+#     print("Obese")
+
+# check valid traingle
+
+a=float(input("Enter first side:"))
+b=float(input("ENter second side:"))
+c=float(input("Enter third side :"))
+
+if a+b >c and a+c>b and b+c>a:
+    print("Valid triangle")
 else:
-    print("Zero")
+    print("Invalid triangle")
