@@ -1937,19 +1937,53 @@
 
 # find number of days in a month
 
-month=int(input("ENter month number :"))
+# month=int(input("ENter month number :"))
 
-if month in[1,3,5,7,8,10,12]:
-    print("31 days")
-elif month in[4,6,9,11]:
-    print("30 days")
-elif month==2:
-    print("28 or 29 days")
-else:
-    print("Invalid month")
+# if month in[1,3,5,7,8,10,12]:
+#     print("31 days")
+# elif month in[4,6,9,11]:
+#     print("30 days")
+# elif month==2:
+#     print("28 or 29 days")
+# else:
+#     print("Invalid month")
 
+# print number from 1 to 10
+# for i in range(1,21):
+#     print(i)
 
+# print numbers from 1 to 20
 
+# for i in range(1,11):
+#     print(i)
 
+# print numbers from 10 to 1
+# for i in range(10,0,-1):
+#     print(i)
+
+# print even numbers from 2 to 20
+
+# for i in range(2,21,2):
+#     print(i)
+
+# print odd numbers from 1 to 19
+
+# for i in range(1,20,2):
+#     print(i)
+
+# print number from 1 to 50
+
+# for i in range(5,16):
+#     print(i)
+
+# print multiples of 5 from  to 50
+
+# for i in range(5,51,5):
+#     print(i)
+
+# print numbers from 100 to 110
+
+for i in range(100,111):
+    print(i)
 
 
