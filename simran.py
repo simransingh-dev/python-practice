@@ -2031,5 +2031,131 @@
 #     print(i/2)
 
 # print the table of 2
-for i in range(1,11):
-    print("2 x",i,"=",2*i)
+# for i in range(1,11):
+#     print("2 x",i,"=",2*i)
+
+# print the table of 5
+# for i in range(1,11):
+#     print("5 x",i,"=",10*i)
+
+# for i in range(1,11):
+#     print("10 x",i,"=",10*i)
+
+# num=7
+
+# for i in range(1,11):
+#     print(num,"x",i,"=",num *i)
+
+# print multiplication table from 1 to 
+# for num in range(1,6):
+#     print("Table of ",num)
+    
+#     for i in range(1,11):
+#         print(num,"x",i,"=",num*i)
+        
+#         print()
+
+# for num in range(2,11):
+#     print("Table of",num)
+    
+#     for i in range(1,11):
+#         print(num,"x",i,"=",num*i)
+        
+#         print()
+
+# total=0
+
+# for i in range(1,11):
+#     total=total+i
+
+# print("Sum =",total)
+
+# total=0
+
+# for i in range(1,101):
+#     total=total+i
+
+# print("Sum =",total)
+
+# total=0
+
+# for i in range(2,21,2):
+#     total=total+i
+
+# print("Sum =",total)
+
+# total=0
+
+# for i in range(1,21,2):
+#     total=total +i
+
+# print("Sum = ",total)
+
+# total=0
+# for i in range(50,101):
+#     total=total+i
+
+# print("Sum =",total)
+
+# count=0
+
+# for i in range(1,11):
+#     count=count+1
+    
+# print("Count =",count)
+
+# count=0
+
+# for i in range(2,21,2):
+#     count=count+1
+    
+# print("Count =",count)
+
+# count=0
+
+# for i in range(1,21,2):
+#     count=count+1
+    
+# print("Count =",count)
+
+# word="education"
+# count=0
+
+# for ch in word:
+#     if ch in"aeiou":
+#         count=count+1
+        
+# print("Vowels =",count)
+
+# print all elements of the list
+
+# numbers=[1,2,3,4,5]
+
+# for num in numbers:
+#     print(num)
+    
+    # print all fruits in a list
+# fruits=["Apple","Banana","Orange"]
+
+# for fruit in fruits:
+#     print(fruit)
+
+# print each color in a list
+
+# colors=["Red","Blue","Green"]
+# for color in colors:
+#     print(color)
+
+# print each subject in a list
+
+# subjects=["Math","Science","English"]
+
+# for subject in subjects:
+#     print(subject)
+
+# print all values in a list
+
+values=[10,20,30,40,50]
+
+for value in values:
+    print(value)
