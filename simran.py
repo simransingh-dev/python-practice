@@ -1983,7 +1983,53 @@
 
 # print numbers from 100 to 110
 
-for i in range(100,111):
-    print(i)
+# for i in range(100,111):
+#     print(i)
 
+# word="Python"
 
+# for c in word:
+#     print(c)
+
+# print each character of your name
+
+# name="Simran"
+
+# for papa in name:
+#     print(papa)
+
+# text="Hello"
+# for ch in text:
+#     print(ch)
+
+# print every vowel in education
+
+# word="education"
+
+# for ch in word:
+#     if ch in "aeiou":
+#         print(ch)
+
+# print each character of chatgpt on a new line 
+
+# text="CHATGPT"
+
+# for ch in text:
+#     print(ch)
+
+# print the square of numbers from 1 to 10
+# for i in range(1,11):
+#     print(i**2)
+
+# for i in range(1,11):
+#     print(i **3)
+
+# for i in range(1,11):
+#     print(i*2)
+
+# for i in range(2,21):
+#     print(i/2)
+
+# print the table of 2
+for i in range(1,11):
+    print("2 x",i,"=",2*i)
