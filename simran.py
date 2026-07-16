@@ -2155,7 +2155,86 @@
 
 # print all values in a list
 
-values=[10,20,30,40,50]
+# values=[10,20,30,40,50]
 
-for value in values:
-    print(value)
+# for value in values:
+#     print(value)
+
+
+# find the sum of[5,10,1,20]
+
+# numbers=[5,10,15,20]
+# total=0
+
+# for num in numbers:
+#     total=total+num
+
+# print("Sum =",total)
+
+# find the largest number in[4,9,2,15,7]
+
+# numbers=[4,9,2,15,7]
+# largest=numbers[0]
+
+# for num in numbers:
+#     if num >largest:
+#         largest=num
+
+# print('largest=',largest)
+
+# numbers=[4,9,2,15,7]
+# smallest=numbers[0]
+
+# for num in numbers:
+#     if num <smallest:
+#         smallest=num
+
+# print("Smallest =",smallest)
+
+# count the numbers of item in a list
+
+# numbers=[4,9,2,15,7]
+# count=0
+
+# for num in numbers:
+#     count=count+1
+    
+# print("Count =",count)
+
+# print only even numbers from a list
+
+# numbers=[1,2,3,4,5,6,7,8]
+
+# for num in numbers:
+#     if num%2==0:
+#         print(num)
+
+# print only odd numbers from a list
+
+# numbers=[1,2,3,4,6,5,7,8,9]
+# for num in numbers:
+#     if num %2!=0:
+#         print(num)
+
+# print each number which is multiplied by 3
+
+# numbers=[2,3,6,8,4]
+# for num in numbers:
+#     print(num*3)
+
+# print the reverse of the string "Python " using a loop
+
+# word="python"
+
+# for ch in word[:: -1]:
+#     print(ch)
+
+# for i in range(1,101):
+#     if i % 10==0:
+#         print(i)
+
+# print a right angled triangle of stars
+
+for i in range(1,101):
+    if i %10==0:
+        print(i)
