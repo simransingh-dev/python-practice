@@ -2434,9 +2434,67 @@
 
 # print 100 to 0
 
-i=100
+# i=100
 
-while i>=0:
-    print(i)
+# while i>=0:
+#     print(i)
     
-    i-=1
+#     i-=1
+
+# print a 5 times
+# i=1
+# while i<=5:
+#     print("A")
+#     i+=1
+
+# i=1
+# while i<=10:
+#     print("B")
+#     i+=1
+
+# i=1
+# while i<=3:
+#     print("Python")
+#     i+=1
+
+# i=11
+# while i<=20:
+#     print(i)
+#     i+=1
+
+# i=2
+# while i<=20:
+#     print(i)
+#     i+=2
+
+# i=1
+
+# while i<=19:
+#     print(i)
+#     i+=2
+
+# i=4
+# while i<=24:
+#     print(i)
+#     i+=4
+
+# i=50
+
+# while i>=40:
+#     print(i)
+#     i-=1
+
+# i=6
+# while i<=48:
+#     print(i)
+#     i+=6
+
+# i=8
+# while i<=80:
+#     print(i)
+#     i+=8
+
+i=1
+while i<=3:
+    print(i)
+    i+=1
