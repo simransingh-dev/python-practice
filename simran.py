@@ -2292,7 +2292,101 @@
 
 # print multiples of 5 till 50
 
-i=5
-while i <=50:
-    print(i)
-    i+=5
+# i=5
+# while i <=50:
+#     print(i)
+#     i+=5
+
+# i=20
+# while i <=30:
+#     print(i)
+#     i+=1
+
+# i=1
+# while i <=5:
+#     print(i *i)
+#     i+=1
+
+# i=1
+# while i <=5:
+#     print(i**3)
+#     i+=1
+
+# print first 10 natural number
+
+# i = 1
+# while i<=10:
+#     print(i)
+#     i+=1
+
+# print first 10 whole natural numbers
+
+# i=0
+# while i <=9:
+#     print(i)
+#     i+=1
+
+# print numbers from 20 to 30
+
+# i=20
+# while i <=30:
+#     print(i)
+#     i+=1
+
+# print squares of 1 to 5
+
+# i=1
+
+# while i <=5:
+#     print(i*i)
+#     i+=1
+
+# print cubes of 1 to 5
+
+# i=1
+# while i <=5:
+#     print(i**3)
+#     i+=1
+
+# print first 10 natural numbers
+# i=1
+# while i<=10:
+#     print(i)
+#     i+=1
+
+# print first 10 whole numbers
+# i=0
+# while i <=9:
+#     print(i)
+#     i+=1
+
+# i=50
+# while i <=60:
+#     print(i)
+#     i+=1
+
+# i=100
+
+# while i >=91:
+#     print(i)
+#     i-=1
+
+# i=2
+# while i<=10:
+#     print(i)
+#     i+=2
+
+# print first 5 odd numbers
+
+# i=1
+# while i <=9:
+#     print(i)
+#     i+=2
+
+# print 5 stars 5 times
+
+i=1
+
+while i <=5:
+    print("*")
+    i+=1
