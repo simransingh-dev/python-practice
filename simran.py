@@ -2385,8 +2385,58 @@
 
 # print 5 stars 5 times
 
-i=1
+# i=1
 
-while i <=5:
-    print("*")
-    i+=1
+# while i <=5:
+#     print("*")
+#     i+=1
+
+# i=1
+# while i <=8:
+#     print("#")
+#     i+=1
+
+# i=1
+# while i <=20:
+#     print(i)
+#     i+=1
+
+# i=10
+# while i<=20:
+#     print(i)
+#     i+=1
+
+# i=1
+# while i<=15:
+#     print(i)
+#     i+=1
+
+# i=2
+
+# while i <=40:
+#     print(i)
+#     i+=2
+
+# i=1
+# while i <=39:
+#     print(i)
+#     i+=2
+
+# i=1
+# while i<=10:
+#     print(i)
+#     i+=1
+
+# i=1
+# while i <=10:
+#     print(9*i)
+#     i+=1
+
+# print 100 to 0
+
+i=100
+
+while i>=0:
+    print(i)
+    
+    i-=1
