@@ -2235,6 +2235,64 @@
 
 # print a right angled triangle of stars
 
-for i in range(1,101):
-    if i %10==0:
-        print(i)
+# for i in range(1,101):
+#     if i %10==0:
+#         print(i)
+
+# i=1
+
+# while i <=5:
+#     print(i)
+#     i+=1  
+
+# i=1
+
+# while i<=10:
+#     print(i)
+#     i+=1
+
+# i=5
+# while i >=1:
+#     print(i)
+#     i-=1
+
+# print even number from 2 to 10
+# i=2
+
+# while i<=10:
+#     print(i)
+#     i+=2
+
+# print odd numbers from 1 to 9
+# i=1
+# while i <=9:
+#     print(i)
+#     i+=2
+
+# print hello 5 times
+# i=1
+# while i<=5:
+#     print("Hello")
+#     i+=1
+
+# i=1
+# while i<=10:
+#     print("Simran")
+#     i+=1
+
+# i=10
+# while i >=1:
+#     print(i)
+#     i-=1
+
+# i=3
+# while i <=30:
+#     print(i)
+#     i+=3
+
+# print multiples of 5 till 50
+
+i=5
+while i <=50:
+    print(i)
+    i+=5
