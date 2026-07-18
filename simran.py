@@ -2494,7 +2494,29 @@
 #     print(i)
 #     i+=8
 
-i=1
-while i<=3:
-    print(i)
-    i+=1
+# i=1
+# while i<=3:
+#     print(i)
+#     i+=1
+
+# print("Hello world !")
+
+# name="Simran"
+# print(name)
+# text="Python"
+# print(len(text))
+# text="Python"
+# print(text[0])
+# text="Python"
+# print(text[-1])
+# text="python"
+# print(text[:3])
+
+# text="Python"
+# print(text[-4])
+
+# text='Python'
+# print(text.lower())
+
+text='python'
+print(text.upper())
