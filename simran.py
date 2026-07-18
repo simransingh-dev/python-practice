@@ -2518,5 +2518,40 @@
 # text='Python'
 # print(text.lower())
 
-text='python'
-print(text.upper())
+# text='python'
+# print(text.upper())
+
+# text="Python Programming"
+# print(text.capitalize())
+
+# convert a string to title case.
+
+# text="Python Programming"
+# print(text.title())
+
+# text="hello"
+# print(text.startswith("H"))
+
+# text="This is python "
+# print(text.endswith("."))
+
+# text="banana"
+# print(text.count('a'))
+
+# text="Hello"
+# print(text.index("o"))
+
+# text="I love python"
+# print(text.replace("Python","Java"))
+
+# text="hello python"
+# print(text.strip())
+
+# first_name="SImran"
+# last_name="SIngh"
+
+# full_name=first_name +"" + last_name
+# print(full_name)
+
+text="HI"
+print(text * 3)
