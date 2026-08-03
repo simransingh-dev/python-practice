@@ -2553,5 +2553,26 @@
 # full_name=first_name +"" + last_name
 # print(full_name)
 
-text="HI"
-print(text * 3)
+# text="HI"
+# print(text * 3)
+
+# for i in range(1,11):
+#     print(i)
+    
+# for i in range(2,21,2):
+#     print(i)
+
+# total=0
+# for i in range(1,11):
+#     total +=i
+# print(total)
+
+# num=7
+
+# for i in range(1,11):
+#     print(num,"x","=", num * i)
+
+fact=1
+for i in range(1,6):
+    fact*=i
+print(fact)
