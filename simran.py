@@ -2592,11 +2592,19 @@
 # for i in range(1,6):
 #     print("x"*i)
 
-numbers=[12,45,8,91,27]
+# numbers=[12,45,8,91,27]
 
-largest=numbers[0]
+# largest=numbers[0]
 
-for num in numbers:
-    if num >largest:
-        largest=num
-print(largest)
+# for num in numbers:
+#     if num >largest:
+#         largest=num
+# print(largest)
+
+# fibbonaci series
+a=0
+b=1
+
+for i in range(10):
+    print(a)
+a,b=b,a+b
