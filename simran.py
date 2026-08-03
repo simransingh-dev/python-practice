@@ -2572,7 +2572,31 @@
 # for i in range(1,11):
 #     print(num,"x","=", num * i)
 
-fact=1
-for i in range(1,6):
-    fact*=i
-print(fact)
+# fact=1
+# for i in range(1,6):
+#     fact*=i
+# print(fact)
+
+# text="Python"
+# for i in range(len(text) -1,-1,-1):
+#     print(text[i],end="")
+
+# text="developer"
+# count=0
+
+# for ch in text:
+#     if ch in "aeiouAEIOU":
+#         count +=1
+# print(count)
+
+# for i in range(1,6):
+#     print("x"*i)
+
+numbers=[12,45,8,91,27]
+
+largest=numbers[0]
+
+for num in numbers:
+    if num >largest:
+        largest=num
+print(largest)
