@@ -2647,13 +2647,41 @@
 # else:
 #     print("Not a leap year")
 
-a=int(input("ENter first number :"))
-b=int(input("ENter second number :"))
-c=int(input("ENter third number :"))
+# a=int(input("ENter first number :"))
+# b=int(input("ENter second number :"))
+# c=int(input("ENter third number :"))
 
-if a>=b and a>=c:
-    print("Largest:",a)
-elif b>=a and b>=c:
-    print("Largest",b)
+# if a>=b and a>=c:
+#     print("Largest:",a)
+# elif b>=a and b>=c:
+#     print("Largest",b)
+# else:
+#     print("Largest",c)
+
+# marks=int(input("Enter marks :"))
+
+# if marks>=90:
+#     print("Grade A")
+# elif marks>=80:
+#     print("Grade B")
+# elif marks>=70:
+#     print("Grade C")
+# elif marks>=60:
+#     print("Grade D")
+# else:
+#     print("Sorry you did not pass ... but it is okay")
+
+# ch=input("Enter a character :")
+# if ch in "AEIOUaeiou":
+#     print("Vowel")
+# else:
+#     print("Consonent")
+
+# check if number is divisible by both 3 and 5
+
+num=int(input("Enter a number :"))
+
+if num %3==0 and num%5==0:
+    print("Divisible by both 3 and 5")
 else:
-    print("Largest",c)
+    print("Not divisible by both")
