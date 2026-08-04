@@ -2602,9 +2602,33 @@
 # print(largest)
 
 # fibbonaci series
-a=0
-b=1
+# a=0
+# b=1
 
-for i in range(10):
-    print(a)
-a,b=b,a+b
+# for i in range(10):
+#     print(a)
+# a,b=b,a+b
+
+# num=int(input("Enter a number :"))
+# if num > 0:
+#     print("Positive number")
+# elif num<0:
+#     print("Negative number")
+# else:
+#     print("Zero")
+
+# num=int(input("Enter a number :"))
+# if num %2==0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+a=int(input("ENter first number :"))
+b=int(input("ENter second number:"))
+
+if a >b:
+    print("Greater number is",a)
+else:
+    print("Greater number is",b)
+
+        
