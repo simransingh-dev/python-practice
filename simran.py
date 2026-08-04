@@ -2623,12 +2623,37 @@
 # else:
 #     print("Odd")
 
-a=int(input("ENter first number :"))
-b=int(input("ENter second number:"))
+# a=int(input("ENter first number :"))
+# b=int(input("ENter second number:"))
 
-if a >b:
-    print("Greater number is",a)
-else:
-    print("Greater number is",b)
+# if a >b:
+#     print("Greater number is",a)
+# else:
+#     print("Greater number is",b)
 
         
+# age=int(input("Enter your age :"))
+
+# if age >=18:
+#     print("Eligible to vote")
+# else:
+#     print("Not eligible to vote")
+
+# check if a year is a leap year
+# year=int(input("Enter year:"))
+
+# if (year % 400==0) or (year %4==0 and year%100!=0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+a=int(input("ENter first number :"))
+b=int(input("ENter second number :"))
+c=int(input("ENter third number :"))
+
+if a>=b and a>=c:
+    print("Largest:",a)
+elif b>=a and b>=c:
+    print("Largest",b)
+else:
+    print("Largest",c)
