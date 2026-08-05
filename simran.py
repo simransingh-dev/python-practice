@@ -2679,9 +2679,37 @@
 
 # check if number is divisible by both 3 and 5
 
-num=int(input("Enter a number :"))
+# num=int(input("Enter a number :"))
 
-if num %3==0 and num%5==0:
-    print("Divisible by both 3 and 5")
+# if num %3==0 and num%5==0:
+#     print("Divisible by both 3 and 5")
+# else:
+#     print("Not divisible by both")
+
+# check if a number is a three digit number
+
+# num=int(input("Enter a number :"))
+
+# if 100<=abs(num) <=999:
+#     print("It is a three-digit number")
+# else:
+#     print("It is not a three digit number")
+
+# age=int(input("Enter your age :"))
+# if age >=60:
+#     print("Senior Citizen")
+# else:
+#     print("Not a senior citizen")
+
+# check whether a number is divisible by 2 ,3 both or neither
+
+num=int(input("ENter a number:"))
+
+if num %2==0 and num%3==0:
+    print("Divisibl;e by both 2 and 3")
+elif num %2==0:
+    print("Divisible by 2 only")
+elif num %3==0:
+    print("Divisible by 3 only")
 else:
-    print("Not divisible by both")
+    print("Not divisible by 2 or 3")
