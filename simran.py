@@ -2703,13 +2703,57 @@
 
 # check whether a number is divisible by 2 ,3 both or neither
 
-num=int(input("ENter a number:"))
+# num=int(input("ENter a number:"))
 
-if num %2==0 and num%3==0:
-    print("Divisibl;e by both 2 and 3")
-elif num %2==0:
-    print("Divisible by 2 only")
-elif num %3==0:
-    print("Divisible by 3 only")
+# if num %2==0 and num%3==0:
+#     print("Divisibl;e by both 2 and 3")
+# elif num %2==0:
+#     print("Divisible by 2 only")
+# elif num %3==0:
+#     print("Divisible by 3 only")
+# else:
+#     print("Not divisible by 2 or 3")
+    
+# check whether a character is an alphabet
+
+# ch=input("Enter a character:")
+
+# if ch.isalpha():
+#     print("Alphabet")
+# else:
+#     print("Not an alphabet")
+
+# check whether a number is a multiple of 7
+
+# num=int(input("Enter a number:"))
+
+# if num %7==0:
+#     print("Multiple of 7")
+# else:
+#     print("Not a multiple of 7")
+
+# num=int(input("Enter a number :"))
+
+# if  1 <=num <=100:
+#     print("Number is in range")
+# else:
+#     print("Number is outside the range")
+
+# check whether a password is a valid
+
+# password=input("Enter password:")
+
+# if len(password) >=8:
+#     print("Valid password")
+# else:
+#     print("Password must b 8 characters")
+
+# check if three sides form a triangle
+a=int(input("Enter first side :"))
+b=int(input("Enter second side:"))
+c=int(input("Enter third side:"))
+
+if a +b>c and a+c>b and b+c>a:
+    print("Triangle can be formed")
 else:
-    print("Not divisible by 2 or 3")
+    print("Triangle cannot be formed")
