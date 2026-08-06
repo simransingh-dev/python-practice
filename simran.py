@@ -2816,9 +2816,19 @@
 #     print(f"{num} x{i} ={num*i}")
 
 # write a program to find a factorial of a number
-num=int(input("ENter a number :"))
-fact=1
+# num=int(input("ENter a number :"))
+# fact=1
 
-for i in range(1,num+1):
-    fact *=i
-print("Factorial:",fact)
+# for i in range(1,num+1):
+#     fact *=i
+# print("Factorial:",fact)
+
+# count vowels in a string
+
+text=input("Enter a string:")
+count=0
+
+for ch in text.lower():
+    if ch in "aeiou":
+     count+=1
+print("NUmber of vowels :",count)
