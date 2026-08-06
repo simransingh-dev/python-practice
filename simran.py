@@ -2749,11 +2749,38 @@
 #     print("Password must b 8 characters")
 
 # check if three sides form a triangle
-a=int(input("Enter first side :"))
-b=int(input("Enter second side:"))
-c=int(input("Enter third side:"))
+# a=int(input("Enter first side :"))
+# b=int(input("Enter second side:"))
+# c=int(input("Enter third side:"))
 
-if a +b>c and a+c>b and b+c>a:
-    print("Triangle can be formed")
+# if a +b>c and a+c>b and b+c>a:
+#     print("Triangle can be formed")
+# else:
+#     print("Triangle cannot be formed1")
+    
+# num=int(input("ENter a number :"))
+# if num %2==0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# write a program to find the largest among three numbers
+
+# a=int(input("Enter First number :"))
+# b=int(input("Enter Second number :"))
+# c=int(input("Enter Third number :"))
+
+# if a >=b and a>=c:
+#     print("Largest :" ,a)
+# elif b>=c:
+#     print("Largest:",b)
+# else:
+#     print("Largest :",c)
+
+# check leap year
+year=int(input("ENter year:"))
+
+if (year % 400 ==0) or (year % 4==0 and year % 100!=0):
+    print("Leap year")
 else:
-    print("Triangle cannot be formed")
+    print("Not a leap year")
