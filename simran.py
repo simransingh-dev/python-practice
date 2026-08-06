@@ -2778,9 +2778,47 @@
 #     print("Largest :",c)
 
 # check leap year
-year=int(input("ENter year:"))
+# year=int(input("ENter year:"))
 
-if (year % 400 ==0) or (year % 4==0 and year % 100!=0):
-    print("Leap year")
-else:
-    print("Not a leap year")
+# if (year % 400 ==0) or (year % 4==0 and year % 100!=0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+# write a program to reverse a number
+
+# num=int(input("ENter a number :"))
+# reverse=0
+
+# while num>0:
+#     digit=num%10
+#     reverse =reverse*10 +digit
+#     num//=10
+# print("Reverse Number :",reverse)
+
+# num=int(input("ENter a numnber :"))
+# original=num
+# reverse=0
+
+# while num>0:
+#     digit=num%10
+#     reverse=reverse*10+digit
+#     num //=10
+# if original ==reverse:
+#     print("Pallindrome")
+# else:
+#     print("Not Pallindrome")
+
+# print multiplication table
+# num=int(input("ENter a number :"))
+
+# for i in range(1,11):
+#     print(f"{num} x{i} ={num*i}")
+
+# write a program to find a factorial of a number
+num=int(input("ENter a number :"))
+fact=1
+
+for i in range(1,num+1):
+    fact *=i
+print("Factorial:",fact)
