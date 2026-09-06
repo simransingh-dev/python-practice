@@ -2825,10 +2825,16 @@
 
 # count vowels in a string
 
-text=input("Enter a string:")
-count=0
+# text=input("Enter a string:")
+# count=0
 
+# for ch in text.lower():
+#     if ch in "aeiou":
+#      count+=1
+# print("NUmber of vowels :",count) 
+text=input("ENter a string")
+count=0
 for ch in text.lower():
     if ch in "aeiou":
-     count+=1
-print("NUmber of vowels :",count)
+        count+=1
+    print("Number of vowels :",count)
