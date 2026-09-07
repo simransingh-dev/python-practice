@@ -2839,9 +2839,19 @@
 #         count+=1
 #     print("Number of vowels :",count)
     
-num=int(input("Enter a number :"))
+# num=int(input("Enter a number :"))
 
-if num %2==0:
-    print("EVen number")
+# if num %2==0:
+#     print("EVen number")
+# else:
+#     print("Odd number")
+
+num=int(input("ENter a number :"))
+
+if num >0:
+    print("Positive number")
+elif num<0:
+    print("Negative number")
 else:
-    print("Odd number")
+    print("Zero")
+    
