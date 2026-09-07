@@ -2832,9 +2832,16 @@
 #     if ch in "aeiou":
 #      count+=1
 # print("NUmber of vowels :",count) 
-text=input("ENter a string")
-count=0
-for ch in text.lower():
-    if ch in "aeiou":
-        count+=1
-    print("Number of vowels :",count)
+# text=input("ENter a string")
+# count=0
+# for ch in text.lower():
+#     if ch in "aeiou":
+#         count+=1
+#     print("Number of vowels :",count)
+    
+num=int(input("Enter a number :"))
+
+if num %2==0:
+    print("EVen number")
+else:
+    print("Odd number")
