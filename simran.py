@@ -2886,3 +2886,14 @@ lst=[1,2,0,0,0]
 non_zero_indices=[i for i,x in enumerate(lst) if x !=0]
 print(non_zero_indices)
 
+
+s="hello"
+rev=""
+for ch in s :
+    rev=ch + rev
+print(rev)
+
+s="OpenPython"
+vowels="aeiou"
+count=sum(1 for ch in s.lower() if ch in vowels)
+print(count)
