@@ -2846,12 +2846,43 @@
 # else:
 #     print("Odd number")
 
-num=int(input("ENter a number :"))
+# num=int(input("ENter a number :"))
 
-if num >0:
-    print("Positive number")
-elif num<0:
-    print("Negative number")
-else:
-    print("Zero")
-    
+# if num >0:
+#     print("Positive number")
+# elif num<0:
+#     print("Negative number")
+# else:
+#     print("Zero")
+
+# multiply all elements in list by 2
+# lst=[1,2,3,4,5]
+# multiplied_lst=[x*2 for x in lst]
+# print(multiplied_lst)
+
+# extract all odd numbers from a list of integers
+# lst=[1,2,4,5,6,7,8,9,10]    
+# odd_numbers=[x for x in lst if x %2!=0]
+# print(odd_numbers)
+
+# replace all odd numbers in a list with -1
+
+# lst = [1,2,3,4,5,6,7,9,10]
+# replaced_lst =[-1 if x % 2!=0 else x for x in lst]
+# print(replaced_lst)
+
+# lst=[-1,2,0,-4,5]
+# boolean_lst =[bool(x for x in lst)]
+# print(boolean_lst)
+
+# replace all even numbers in a list wuth their negative 
+
+# lst=[1,2,3,4,5,6,7,-8]
+# neg_even_lst=[-x if x %2==0 else  x for x in lst]
+# print(neg_even_lst)
+
+# find the indices of non-zero elements in a list
+lst=[1,2,0,0,0]
+non_zero_indices=[i for i,x in enumerate(lst) if x !=0]
+print(non_zero_indices)
+
