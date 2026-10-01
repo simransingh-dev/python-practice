@@ -2954,8 +2954,22 @@ print("Index of min:",min_index)
 
 # Find the unique values and their counts in a list
 
-lst=[1,2,3,4,1,5,4,6]
-unique_values=list(set(lst))
-counts={x:lst.count(x) for x in unique_values}
-print("Unique values:",unique_values)
-print("Counts:",counts)
+# lst=[1,2,3,4,1,5,4,6]
+# unique_values=list(set(lst))
+# counts={x:lst.count(x) for x in unique_values}
+# print("Unique values:",unique_values)
+# print("Counts:",counts)
+
+# Check if any element in a list is non-zero.
+
+# lst=[0,0,0,1,0]
+# any_nonzero=any(lst)
+# print(any_nonzero)
+
+# Find the median of a list of numbers.
+
+lst=[2,5,1,3,4]
+lst.sort()
+n=len(lst)
+median=(lst[n//2] if n % 2!=0 else (lst[n//2-1] +lst[n//2]))
+print(median)
