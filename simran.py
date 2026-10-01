@@ -2882,18 +2882,51 @@
 # print(neg_even_lst)
 
 # find the indices of non-zero elements in a list
-lst=[1,2,0,0,0]
-non_zero_indices=[i for i,x in enumerate(lst) if x !=0]
-print(non_zero_indices)
+# lst=[1,2,0,0,0]
+# non_zero_indices=[i for i,x in enumerate(lst) if x !=0]
+# print(non_zero_indices)
 
 
-s="hello"
-rev=""
-for ch in s :
-    rev=ch + rev
-print(rev)
+# s="hello"
+# rev=""
+# for ch in s :
+#     rev=ch + rev
+# print(rev)
 
-s="OpenPython"
-vowels="aeiou"
-count=sum(1 for ch in s.lower() if ch in vowels)
-print(count)
+# s="OpenPython"
+# vowels="aeiou"
+# count=sum(1 for ch in s.lower() if ch in vowels)
+# print(count)
+
+# a,b=5,10
+# a,b=b,a
+# print(a,b)
+
+# r=float(input("Enter radius :"))
+# pi=3.14
+# print(pi *r*r)
+
+# create a list with values ranging from 0 to 9
+lst=list(range(10))
+print(lst)
+
+# conver a list integers to a list of strings
+lst=[1,2,3,4,5]
+str_lst=list(map(str,lst))
+print(str_lst)
+
+# multiply all elements by 2
+lst=[1,2,3,4,5]
+multiplied_lst=[x *2 for x in lst]
+print(multiplied_lst)
+
+# extract all odd numbers from a list of integers
+lst=[1,2,3,4,5,6,7,8,9,10]
+odd_numbers=[x for x in lst if x % 2 !=0]
+print(odd_numbers)
+
+# Replace all odd numbers in a list with -1.
+
+lst=[1,2,3,4,5,6,7,8,9,10]
+replaced_lst=[-1 if x%2!=0 else x for x in lst]
+print(replaced_lst)
