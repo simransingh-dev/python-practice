@@ -2951,3 +2951,11 @@ min_index=lst.index(min(lst))
 
 print("Index of max:",max_index)
 print("Index of min:",min_index)
+
+# Find the unique values and their counts in a list
+
+lst=[1,2,3,4,1,5,4,6]
+unique_values=list(set(lst))
+counts={x:lst.count(x) for x in unique_values}
+print("Unique values:",unique_values)
+print("Counts:",counts)
