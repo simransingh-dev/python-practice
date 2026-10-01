@@ -2936,3 +2936,10 @@ print(replaced_lst)
 lst=[0,0,0,1,0]
 any_nonzero =any(lst)
 print(any_nonzero)
+
+# conver a list of numbers to a list of their logarithms
+
+import math
+lst=[1,10,100,1000]
+log_lst=[math.log10(x) for x in lst]
+print(log_lst)
