@@ -2943,3 +2943,11 @@ import math
 lst=[1,10,100,1000]
 log_lst=[math.log10(x) for x in lst]
 print(log_lst)
+
+# Find the indices of the maximum and minimum values in a list.
+lst=[5,2,8,1,7]
+max_index=lst.index(max(lst) )
+min_index=lst.index(min(lst))
+
+print("Index of max:",max_index)
+print("Index of min:",min_index)
