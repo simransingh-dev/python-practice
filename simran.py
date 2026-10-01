@@ -2930,3 +2930,9 @@ print(odd_numbers)
 lst=[1,2,3,4,5,6,7,8,9,10]
 replaced_lst=[-1 if x%2!=0 else x for x in lst]
 print(replaced_lst)
+
+# check if any element in a list is non-zero
+
+lst=[0,0,0,1,0]
+any_nonzero =any(lst)
+print(any_nonzero)
