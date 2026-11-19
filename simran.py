@@ -2981,12 +2981,24 @@
 # print("Hello",name +"","You are",age,"Years old")
 
 # take two numbers and print their sum,difference,product and quotient
-num1=float(input("Enter first number :"))
-num2=float(input("Enter second number :"))
+# num1=float(input("Enter first number :"))
+# num2=float(input("Enter second number :"))
 
-print("Sum:",num1+num2)
-print("Difference:",num1-num2)
-print("Product:",num1*num2)
-print("Quotient:",num1/num2)
+# print("Sum:",num1+num2)
+# print("Difference:",num1-num2)
+# print("Product:",num1*num2)
+# print("Quotient:",num1/num2)
 
 
+# take 2 integers and one float convert all to floats, and print their average
+
+num1=int(input("Enter first integer:"))
+num2=int(input("Enter second integer:"))
+num3=int(input("Enter third integer:"))
+
+num1=float(num1)
+num2=float(num2)
+num3=float(num3)
+
+average=(num1 +num2)/3
+print("Average:", average)
