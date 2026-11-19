@@ -2992,13 +2992,29 @@
 
 # take 2 integers and one float convert all to floats, and print their average
 
-num1=int(input("Enter first integer:"))
-num2=int(input("Enter second integer:"))
-num3=int(input("Enter third integer:"))
+# num1=int(input("Enter first integer:"))
+# num2=int(input("Enter second integer:"))
+# num3=int(input("Enter third integer:"))
 
-num1=float(num1)
-num2=float(num2)
-num3=float(num3)
+# num1=float(num1)
+# num2=float(num2)
+# num3=float(num3)
 
-average=(num1 +num2)/3
-print("Average:", average)
+# average=(num1 +num2)/3
+# print("Average:", average)
+
+# convert a string containing a number into integer , float and string again.print values with their types
+
+num="12"
+integer_value=int(num)
+float_value=float(num)
+string_value=str(num)
+
+print('integer value:',integer_value)
+print("Type :", type(integer_value))
+
+print("Float_value" ,float_value)
+print("type",type(float_value))
+
+print('String  Value',string_value)
+print("type",type(string_value))
