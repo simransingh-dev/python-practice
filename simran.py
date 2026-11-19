@@ -3005,16 +3005,21 @@
 
 # convert a string containing a number into integer , float and string again.print values with their types
 
-num="12"
-integer_value=int(num)
-float_value=float(num)
-string_value=str(num)
+# num="12"
+# integer_value=int(num)
+# float_value=float(num)
+# string_value=str(num)
 
-print('integer value:',integer_value)
-print("Type :", type(integer_value))
+# print('integer value:',integer_value)
+# print("Type :", type(integer_value))
 
-print("Float_value" ,float_value)
-print("type",type(float_value))
+# print("Float_value" ,float_value)
+# print("type",type(float_value))
 
-print('String  Value',string_value)
-print("type",type(string_value))
+# print('String  Value',string_value)
+# print("type",type(string_value))
+
+# evealuate the expression and explain the output
+
+x=10+3*2**2
+print(x)
