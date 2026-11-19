@@ -2907,50 +2907,50 @@
 # print(pi *r*r)
 
 # create a list with values ranging from 0 to 9
-lst=list(range(10))
-print(lst)
+# lst=list(range(10))
+# print(lst)
 
-# conver a list integers to a list of strings
-lst=[1,2,3,4,5]
-str_lst=list(map(str,lst))
-print(str_lst)
+# # conver a list integers to a list of strings
+# lst=[1,2,3,4,5]
+# str_lst=list(map(str,lst))
+# print(str_lst)
 
 # multiply all elements by 2
-lst=[1,2,3,4,5]
-multiplied_lst=[x *2 for x in lst]
-print(multiplied_lst)
+# lst=[1,2,3,4,5]
+# multiplied_lst=[x *2 for x in lst]
+# print(multiplied_lst)
 
 # extract all odd numbers from a list of integers
-lst=[1,2,3,4,5,6,7,8,9,10]
-odd_numbers=[x for x in lst if x % 2 !=0]
-print(odd_numbers)
+# lst=[1,2,3,4,5,6,7,8,9,10]
+# odd_numbers=[x for x in lst if x % 2 !=0]
+# print(odd_numbers)
 
 # Replace all odd numbers in a list with -1.
 
-lst=[1,2,3,4,5,6,7,8,9,10]
-replaced_lst=[-1 if x%2!=0 else x for x in lst]
-print(replaced_lst)
+# lst=[1,2,3,4,5,6,7,8,9,10]
+# replaced_lst=[-1 if x%2!=0 else x for x in lst]
+# print(replaced_lst)
 
 # check if any element in a list is non-zero
 
-lst=[0,0,0,1,0]
-any_nonzero =any(lst)
-print(any_nonzero)
+# lst=[0,0,0,1,0]
+# any_nonzero =any(lst)
+# print(any_nonzero)
 
-# conver a list of numbers to a list of their logarithms
+# # conver a list of numbers to a list of their logarithms
 
-import math
-lst=[1,10,100,1000]
-log_lst=[math.log10(x) for x in lst]
-print(log_lst)
+# import math
+# lst=[1,10,100,1000]
+# log_lst=[math.log10(x) for x in lst]
+# print(log_lst)
 
 # Find the indices of the maximum and minimum values in a list.
-lst=[5,2,8,1,7]
-max_index=lst.index(max(lst) )
-min_index=lst.index(min(lst))
+# lst=[5,2,8,1,7]
+# max_index=lst.index(max(lst) )
+# min_index=lst.index(min(lst))
 
-print("Index of max:",max_index)
-print("Index of min:",min_index)
+# print("Index of max:",max_index)
+# print("Index of min:",min_index)
 
 # Find the unique values and their counts in a list
 
@@ -2976,7 +2976,17 @@ print("Index of min:",min_index)
 
 # take users name as input and print a sentence
 
-name=input("Enter your name :")
-age=input("Enter your age :")
-print("Hello",name +"","You are",age,"Years old")
+# name=input("Enter your name :")
+# age=input("Enter your age :")
+# print("Hello",name +"","You are",age,"Years old")
+
+# take two numbers and print their sum,difference,product and quotient
+num1=float(input("Enter first number :"))
+num2=float(input("Enter second number :"))
+
+print("Sum:",num1+num2)
+print("Difference:",num1-num2)
+print("Product:",num1*num2)
+print("Quotient:",num1/num2)
+
 
