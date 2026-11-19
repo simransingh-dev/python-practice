@@ -2968,8 +2968,15 @@ print("Index of min:",min_index)
 
 # Find the median of a list of numbers.
 
-lst=[2,5,1,3,4]
-lst.sort()
-n=len(lst)
-median=(lst[n//2] if n % 2!=0 else (lst[n//2-1] +lst[n//2]))
-print(median)
+# lst=[2,5,1,3,4]
+# lst.sort()
+# n=len(lst)
+# median=(lst[n//2] if n % 2!=0 else (lst[n//2-1] +lst[n//2]))
+# print(median)
+
+# take users name as input and print a sentence
+
+name=input("Enter your name :")
+age=input("Enter your age :")
+print("Hello",name +"","You are",age,"Years old")
+
